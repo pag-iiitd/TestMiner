@@ -1,0 +1,7 @@
+is_ip(string)
+Checks if a string is a valid ip.
+
+:param string: String to check.
+:type string: str
+:return: True if an ip, false otherwise.
+:rtype: bool
