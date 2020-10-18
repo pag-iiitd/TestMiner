@@ -1,0 +1,2 @@
+escape(pattern)
+Escape special characters in a string.

@@ -1,0 +1,5 @@
+assertValidEmailAddress(String email_address)
+Asserts that email address is valid. If it is invalid, then an exception will be thrown.
+@param email_address email address to be asserted
+@return valid email address
+@throws IllegalArgumentException thrown if the email address is invalid in any way

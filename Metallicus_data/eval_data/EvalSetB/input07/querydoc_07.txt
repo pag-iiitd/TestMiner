@@ -1,0 +1,4 @@
+reverse(String str)
+Reverse the passed string.
+@param str the string to be reversed
+@return a reversed version of {@code str}

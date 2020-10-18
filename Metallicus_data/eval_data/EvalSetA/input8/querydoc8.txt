@@ -1,0 +1,9 @@
+is_email(string)
+Check if a string is an email.
+
+By design, the implementation of this checking does not follow the specification for a valid email address, but instead it's based on real world cases in order to match more than 99% of emails and catch user mistakes.
+
+:param string: String to check.
+:type string: str
+:return: True if email, false otherwise.
+:rtype: bool

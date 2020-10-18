@@ -1,0 +1,3 @@
+toKebabCase(String str)
+Converts the given string to kebab case. kebab case is string format that contains '-' in place of any spaces
+@param str the string to convert to kebab case

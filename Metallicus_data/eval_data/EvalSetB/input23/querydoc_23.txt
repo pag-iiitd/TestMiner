@@ -1,0 +1,2 @@
+polarity(s)
+Returns the sentence sentiment or polarity (positive/negative) between -1.0 and 1.0.

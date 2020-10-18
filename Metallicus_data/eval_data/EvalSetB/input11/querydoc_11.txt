@@ -1,0 +1,5 @@
+assertValidPortNumber(int port)
+Asserts that port number is valid. If it is invalid, then an exception will be thrown.
+@param port port number to be asserted
+@return valid port number
+@throws IllegalArgumentException thrown if the port number is invalid in any way
