@@ -1,5 +1,6 @@
+
 import pytest
 
-@pytest.mark.parametrize('value,op', [('255.255.10.1', True)])
-def test_ip(value, op):
-    assert (is_ip(value) == op)
+@pytest.mark.parametrize('address,op', [('dead:beef:0:0:0:0:42:1', True),])
+def test_ipv6(address, op):
+    assert (ipv6(address) == op)
