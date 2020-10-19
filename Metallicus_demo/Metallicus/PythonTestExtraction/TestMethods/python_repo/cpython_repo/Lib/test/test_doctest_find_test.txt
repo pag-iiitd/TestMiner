@@ -1,0 +1,9 @@
+doctest (doctest) ... 66 tests with zero failures
+doctest (test.test_doctest) ... 516 tests with zero failures
+test_empty_namespace_package (__main__.TestDocTestFinder) ... ok
+
+----------------------------------------------------------------------
+
+Ran 1 test in 0.010s
+
+OK

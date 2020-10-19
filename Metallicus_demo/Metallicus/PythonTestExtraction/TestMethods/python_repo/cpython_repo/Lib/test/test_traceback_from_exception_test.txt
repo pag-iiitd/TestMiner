@@ -1,0 +1,1 @@
+[[['[<FrameSummary file python_repo\\cpython_repo\\Lib\\test\\test_traceback_from_exception_instr.py, line 851 in test_from_exception>]', 'EXP_op', 'python_traceback.StackSummary']]]

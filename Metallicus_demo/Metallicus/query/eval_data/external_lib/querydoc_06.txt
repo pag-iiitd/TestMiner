@@ -1,0 +1,4 @@
+length(String str)
+A null check implementation of the String.length() method
+@param str the string to be examined, can be null
+@return -1 if {@code str} is null otherwise the length of the string that was passed in as an argument

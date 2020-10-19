@@ -1,0 +1,6 @@
+assertValidHostname(String hostname)
+Asserts that hostname or IP address is valid. If it is invalid, then an exception will be thrown.
+@param hostname hostname to be asserted
+@return valid hostname
+@throws IllegalArgumentException thrown if the hostname is invalid in any way
+

@@ -1,0 +1,1 @@
+['# This is a comment', 'line', 'python_str'], ['# This is a comment   ', 'line', 'python_str'], ['    # This is a comment', 'line', 'python_str'], ['    This is not a comment', 'line', 'python_str'], 

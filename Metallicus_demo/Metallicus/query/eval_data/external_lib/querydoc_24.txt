@@ -1,0 +1,2 @@
+find_lemma(string)
+Returns the base form of the given inflected verb, using a rule-based approach.

@@ -1,0 +1,3 @@
+[[[;#the quick brown fox jumped over the lazy dog;#,'str','java_java.lang.String'],[;#['the quick brown fox jumped over the lazy dog'];#,'EXP_op','java_java.lang.Object']], [[;#the quick brown fox jumped over the lazy dog. The lazy dog was not impressed.;#,'str','java_java.lang.String'],[;#['the quick brown fox jumped over the lazy dog.', 'The lazy dog was not impressed.'];#,'EXP_op','java_java.lang.Object']]]
+
+

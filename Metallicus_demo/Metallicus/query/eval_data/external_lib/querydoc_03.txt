@@ -1,0 +1,4 @@
+isEmpty(String str)
+Checks if the string is null or its length is 0.
+@param str the string to be examined, can be null
+@return true if {@code str} is null or its length is 0, false otherwise

@@ -1,0 +1,1 @@
+b"[[['GB82WEST12345698765432', 'value', 'python_str', ['ANM', [22, 'L'], 'L2D2L4D14']], ['True', 'EXP_op', 'python_bool', None]], [['NO9386011117947', 'value', 'python_str', ['ANM', [15, 'L'], 'L2D13']], ['True', 'EXP_op', 'python_bool', None]]]"

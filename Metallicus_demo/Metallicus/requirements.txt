@@ -1,0 +1,11 @@
+astunparse==1.6.2
+gensim==3.8.0
+numpy==1.17.1
+networkx==2.4
+nltk==3.4.5
+pandas==0.25.1
+textdistance==4.1.5
+pytest==5.4.1
+auto_mix_prep==0.2.0
+peewee==3.13.3
+scikit-learn==0.21.3

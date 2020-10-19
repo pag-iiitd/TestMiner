@@ -1,0 +1,1 @@
+[[['GB82WEST12345698765432', 'value', 'python_str'], ['True', 'EXP_op', 'python_bool']], [['NO9386011117947', 'value', 'python_str'], ['True', 'EXP_op', 'python_bool']]]

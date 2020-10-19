@@ -1,0 +1,55 @@
+test_1647484 (__main__.TestGzip) ... ok
+test_append (__main__.TestGzip) ... ok
+test_buffered_reader (__main__.TestGzip) ... ok
+test_bytes_filename (__main__.TestGzip) ... ok
+test_compress (__main__.TestGzip) ... ok
+test_decompress (__main__.TestGzip) ... ok
+test_decompress_limited (__main__.TestGzip)
+Decompressed data buffering should be limited ... ok
+test_exclusive_write (__main__.TestGzip) ... ok
+test_fileobj_from_fdopen (__main__.TestGzip) ... ok
+test_fileobj_mode (__main__.TestGzip) ... ok
+test_io_on_closed_object (__main__.TestGzip) ... ok
+test_many_append (__main__.TestGzip) ... ok
+test_metadata (__main__.TestGzip) ... ok
+test_mode (__main__.TestGzip) ... ok
+test_mtime (__main__.TestGzip) ... ok
+test_non_seekable_file (__main__.TestGzip) ... ok
+test_paddedfile_getattr (__main__.TestGzip) ... ok
+test_peek (__main__.TestGzip) ... ok
+test_prepend_error (__main__.TestGzip) ... ok
+test_read (__main__.TestGzip) ... ok
+test_read1 (__main__.TestGzip) ... ok
+test_read_large (__main__.TestGzip) ... ok
+test_read_truncated (__main__.TestGzip) ... ok
+test_read_with_extra (__main__.TestGzip) ... ok
+test_readline (__main__.TestGzip) ... ok
+test_readlines (__main__.TestGzip) ... ok
+test_seek_read (__main__.TestGzip) ... ok
+test_seek_whence (__main__.TestGzip) ... ok
+test_seek_write (__main__.TestGzip) ... ok
+test_textio_readlines (__main__.TestGzip) ... ok
+test_with_open (__main__.TestGzip) ... ok
+test_write (__main__.TestGzip) ... ok
+test_write_array (__main__.TestGzip) ... ok
+test_write_bytearray (__main__.TestGzip) ... ok
+test_write_incompatible_type (__main__.TestGzip) ... ok
+test_write_memoryview (__main__.TestGzip) ... ok
+test_write_read_with_pathlike_file (__main__.TestGzip) ... ok
+test_zero_padded_file (__main__.TestGzip) ... ok
+test_bad_params (__main__.TestOpen) ... ok
+test_binary_modes (__main__.TestOpen) ... ok
+test_encoding (__main__.TestOpen) ... ['\n', 'arg', 'python_str'], ['\r\n', 'arg', 'python_str'], ok
+test_encoding_error_handler (__main__.TestOpen) ... ok
+test_fileobj (__main__.TestOpen) ... ok
+test_implicit_binary_modes (__main__.TestOpen) ... ok
+test_newline (__main__.TestOpen) ... ok
+test_pathlike_file (__main__.TestOpen) ... ok
+test_text_modes (__main__.TestOpen) ... ['\n', 'arg', 'python_str'], ['\r\n', 'arg', 'python_str'], ok
+
+----------------------------------------------------------------------
+
+Ran 47 tests in 0.386s
+
+OK
+['\n', 'arg', 'python_str'], ['\r\n', 'arg', 'python_str'], ['\n', 'arg', 'python_str'], ['\r\n', 'arg', 'python_str'], 

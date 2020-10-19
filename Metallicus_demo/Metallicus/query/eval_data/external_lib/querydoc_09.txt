@@ -1,0 +1,9 @@
+truncate(String str, int maxWidth, String trimPosition, boolean includeEllipsis, String ellipsechar)
+Returns a truncated string based on the parameters passed in
+@param str the string to be examined, can be null
+@param maxWidth the expected maximum width of the string
+@param trimPosition where should the string be truncated at, either beginning or end
+@param includeEllipsis whether the ellipsis characters should be included or not
+@param ellipsechar the character to be used to replace the truncated string
+@return the {@code str} if the length of the string is smaller than {@code maxWidth}, otherwise a truncated version of {@code str}
+

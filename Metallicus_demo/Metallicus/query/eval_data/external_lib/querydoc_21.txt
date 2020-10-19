@@ -1,0 +1,3 @@
+tokenize(str)
+Returns a list of sentences, where punctuation marks have been split from words.
+

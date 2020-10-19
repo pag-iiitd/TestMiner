@@ -1,0 +1,1 @@
+[[[;#This is a test . What is the result of two sentences ?;#,'str','java_java.lang.String'],[;#This_DT is_VBZ a_DT test_NN ._. What_WP is_VBZ the_DT result_NN of_IN two_CD sentences_NNS ?_.;#,'EXP_op','java_java.lang.String']]]

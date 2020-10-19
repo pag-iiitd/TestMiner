@@ -1,0 +1,84 @@
+test_bjunk (__main__.TestWithAscii) ... ok
+test_one_delete (__main__.TestWithAscii) ... ok
+test_one_insert (__main__.TestWithAscii) ... ok
+test_one_insert_homogenous_sequence (__main__.TestAutojunk) ... ok
+test_html_diff (__main__.TestSFpatches) ... ok
+test_make_file_default_charset (__main__.TestSFpatches) ... ok
+test_make_file_iso88591_charset (__main__.TestSFpatches) ... ok
+test_make_file_usascii_charset_with_nonascii_input (__main__.TestSFpatches) ... FAIL
+test_recursion_limit (__main__.TestSFpatches) ... ok
+test_added_tab_hint (__main__.TestSFbugs) ... ['<generator object Differ.compare at 0x000002C04F8A72C8>', 'arg', 'python_generator'], ok
+test_comparing_empty_lists (__main__.TestSFbugs) ... ok
+test_matching_blocks_cache (__main__.TestSFbugs) ... ok
+test_mdiff_catch_stop_iteration (__main__.TestSFbugs) ... ok
+test_ratio_for_null_seqn (__main__.TestSFbugs) ... ok
+test_no_trailing_tab_on_empty_filedate (__main__.TestOutputFormat) ... ok
+test_range_format_context (__main__.TestOutputFormat) ... ok
+test_range_format_unified (__main__.TestOutputFormat) ... ok
+test_tab_delimiter (__main__.TestOutputFormat) ... ok
+test_byte_content (__main__.TestBytes) ... ok
+test_byte_filenames (__main__.TestBytes) ... ok
+test_mixed_types_content (__main__.TestBytes) ... ok
+test_mixed_types_dates (__main__.TestBytes) ... ok
+test_mixed_types_filenames (__main__.TestBytes) ... ok
+test_is_character_junk_false (__main__.TestJunkAPIs) ... ok
+test_is_character_junk_true (__main__.TestJunkAPIs) ... ok
+test_is_line_junk_REDOS (__main__.TestJunkAPIs) ... ok
+test_is_line_junk_false (__main__.TestJunkAPIs) ... ok
+test_is_line_junk_true (__main__.TestJunkAPIs) ... ok
+Differ (difflib)
+Doctest: difflib.Differ ... ok
+_fancy_replace (difflib.Differ)
+Doctest: difflib.Differ._fancy_replace ... ok
+_qformat (difflib.Differ)
+Doctest: difflib.Differ._qformat ... ok
+compare (difflib.Differ)
+Doctest: difflib.Differ.compare ... ok
+IS_CHARACTER_JUNK (difflib)
+Doctest: difflib.IS_CHARACTER_JUNK ... ok
+IS_LINE_JUNK (difflib)
+Doctest: difflib.IS_LINE_JUNK ... ok
+SequenceMatcher (difflib)
+Doctest: difflib.SequenceMatcher ... ok
+find_longest_match (difflib.SequenceMatcher)
+Doctest: difflib.SequenceMatcher.find_longest_match ... ok
+get_grouped_opcodes (difflib.SequenceMatcher)
+Doctest: difflib.SequenceMatcher.get_grouped_opcodes ... ok
+get_matching_blocks (difflib.SequenceMatcher)
+Doctest: difflib.SequenceMatcher.get_matching_blocks ... ok
+get_opcodes (difflib.SequenceMatcher)
+Doctest: difflib.SequenceMatcher.get_opcodes ... ok
+ratio (difflib.SequenceMatcher)
+Doctest: difflib.SequenceMatcher.ratio ... ok
+set_seq1 (difflib.SequenceMatcher)
+Doctest: difflib.SequenceMatcher.set_seq1 ... ok
+set_seq2 (difflib.SequenceMatcher)
+Doctest: difflib.SequenceMatcher.set_seq2 ... ok
+set_seqs (difflib.SequenceMatcher)
+Doctest: difflib.SequenceMatcher.set_seqs ... ok
+_count_leading (difflib)
+Doctest: difflib._count_leading ... ok
+context_diff (difflib)
+Doctest: difflib.context_diff ... ok
+get_close_matches (difflib)
+Doctest: difflib.get_close_matches ... ok
+ndiff (difflib)
+Doctest: difflib.ndiff ... ok
+restore (difflib)
+Doctest: difflib.restore ... ok
+unified_diff (difflib)
+Doctest: difflib.unified_diff ... ok
+
+======================================================================
+FAIL: test_make_file_usascii_charset_with_nonascii_input (__main__.TestSFpatches)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "python_repo\cpython_repo\Lib\test\test_difflib_compare_instr.py", line 133, in test_make_file_usascii_charset_with_nonascii_input
+    self.assertIn('&#305;mpl&#305;c&#305;t', output)
+AssertionError: '&#305;mpl&#305;c&#305;t' not found in '\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n\n<html>\n\n<head>\n    <meta http-equiv="Content-Type"\n          content="text/html; charset=us-ascii" />\n    <title></title>\n    <style type="text/css">\n        table.diff {font-family:Courier; border:medium;}\n        .diff_header {background-color:#e0e0e0}\n        td.diff_header {text-align:right}\n        .diff_next {background-color:#c0c0c0}\n        .diff_add {background-color:#aaffaa}\n        .diff_chg {background-color:#ffff77}\n        .diff_sub {background-color:#ffaaaa}\n    </style>\n</head>\n\n<body>\n    \n    <table class="diff" id="difflib_chg_to16__top"\n           cellspacing="0" cellpadding="0" rules="groups" >\n        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>\n        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>\n        \n        <tbody>\n            <tr><td class="diff_next" id="difflib_chg_to16__0"><a href="#difflib_chg_to16__0">f</a></td><td class="diff_header" id="from16_1">1</td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to16__0">f</a></td><td class="diff_header" id="to16_1">1</td><td nowrap="nowrap"></td></tr>\n            <tr><td class="diff_next"><a href="#difflib_chg_to16__top">t</a></td><td class="diff_header" id="from16_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;1.&nbsp;Beautiful&nbsp;is&nbsp;be<span class="diff_chg">TT</span>er&nbsp;than&nbsp;<span class="diff_chg">u</span>gly.</td><td class="diff_next"><a href="#difflib_chg_to16__top">t</a></td><td class="diff_header" id="to16_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;1.&nbsp;Beautiful&nbsp;is&nbsp;be<span class="diff_chg">tt</span>er&nbsp;than&nbsp;<span class="diff_chg">&#195;&#188;</span>gly.</td></tr>\n            <tr><td class="diff_next"></td><td class="diff_header" id="from16_3">3</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;2.&nbsp;Explicit&nbsp;is&nbsp;better&nbsp;than&nbsp;&#196;&#177;mpl&#196;&#177;c&#196;&#177;t.</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>\n            <tr><td class="diff_next"></td><td class="diff_header" id="from16_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;3.&nbsp;S<span class="diff_chg">i</span>mple&nbsp;is&nbsp;better&nbsp;than&nbsp;complex.</td><td class="diff_next"></td><td class="diff_header" id="to16_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;3.&nbsp;<span class="diff_add">&nbsp;&nbsp;</span>S<span class="diff_chg">&#196;&#177;</span>mple&nbsp;is&nbsp;better&nbsp;than&nbsp;complex.</td></tr>\n            <tr><td class="diff_next"></td><td class="diff_header" id="from16_5">5</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;4.&nbsp;Complex&nbsp;is&nbsp;better&nbsp;than&nbsp;complicated.</span></td><td class="diff_next"></td><td class="diff_header" id="to16_4">4</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;4.&nbsp;Complicated&nbsp;is&nbsp;better&nbsp;than&nbsp;c&#195;&#182;mplex.</span></td></tr>\n            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to16_5">5</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;5.&nbsp;Flat&nbsp;is&nbsp;better&nbsp;than&nbsp;nested.</span></td></tr>\n        </tbody>\n    </table>\n    <table class="diff" summary="Legends">\n        <tr> <th colspan="2"> Legends </th> </tr>\n        <tr> <td> <table border="" summary="Colors">\n                      <tr><th> Colors </th> </tr>\n                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>\n                      <tr><td class="diff_chg">Changed</td> </tr>\n                      <tr><td class="diff_sub">Deleted</td> </tr>\n                  </table></td>\n             <td> <table border="" summary="Links">\n                      <tr><th colspan="2"> Links </th> </tr>\n                      <tr><td>(f)irst change</td> </tr>\n                      <tr><td>(n)ext change</td> </tr>\n                      <tr><td>(t)op</td> </tr>\n                  </table></td> </tr>\n    </table>\n</body>\n\n</html>'
+
+----------------------------------------------------------------------
+
+Ran 49 tests in 0.880s
+
+FAILED (failures=1)

@@ -1,0 +1,4 @@
+isBlank(String str)
+Checks if the string is null, its length is 0 or a whitespace.
+@param str the string to be examined, can be null
+@return true if {@code str} is null, its length is 0 or a whitespace, false otherwise

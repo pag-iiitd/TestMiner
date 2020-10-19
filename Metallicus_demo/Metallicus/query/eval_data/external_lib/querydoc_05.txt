@@ -1,0 +1,4 @@
+isPalindrome(String str)
+Checks whether the passed in string is a palindrome
+@param str the string to be checked
+@return true if {@code str} is a palindrome, false otherwise

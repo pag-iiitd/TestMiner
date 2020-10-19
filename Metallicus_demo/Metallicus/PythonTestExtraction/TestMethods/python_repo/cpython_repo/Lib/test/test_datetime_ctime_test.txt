@@ -1,0 +1,894 @@
+test_check_date (test.datetimetester.CapiTest_Pure) ... skipped 'Not relevant in pure Python'
+test_check_datetime (test.datetimetester.CapiTest_Pure) ... skipped 'Not relevant in pure Python'
+test_check_delta (test.datetimetester.CapiTest_Pure) ... skipped 'Not relevant in pure Python'
+test_check_time (test.datetimetester.CapiTest_Pure) ... skipped 'Not relevant in pure Python'
+test_check_tzinfo (test.datetimetester.CapiTest_Pure) ... skipped 'Not relevant in pure Python'
+test_timezones_capi (test.datetimetester.CapiTest_Pure) ... skipped 'Not relevant in pure Python'
+test_timezones_offset_zero (test.datetimetester.CapiTest_Pure) ... skipped 'Not relevant in pure Python'
+test_utc_capi (test.datetimetester.CapiTest_Pure) ... skipped 'Not relevant in pure Python'
+test_folds (test.datetimetester.IranTest_Pure) ... skipped 'Skipping zoneinfo tests on Windows'
+test_gaps (test.datetimetester.IranTest_Pure) ... skipped 'Skipping zoneinfo tests on Windows'
+test_system_transitions (test.datetimetester.IranTest_Pure) ... skipped 'Skipping zoneinfo tests on Windows'
+test_bug_1028306 (test.datetimetester.Oddballs_Pure) ... ok
+test_check_arg_types (test.datetimetester.Oddballs_Pure) ... ok
+test_extra_attributes (test.datetimetester.Oddballs_Pure) ... ok
+test_backdoor_resistance (test.datetimetester.TestDate_Pure) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestDate_Pure) ... ok
+test_basic_attributes (test.datetimetester.TestDate_Pure) ... ok
+test_bool (test.datetimetester.TestDate_Pure) ... ok
+test_compare (test.datetimetester.TestDate_Pure) ... ok
+test_compat_unpickle (test.datetimetester.TestDate_Pure) ... ok
+test_computations (test.datetimetester.TestDate_Pure) ... ok
+test_ctime (test.datetimetester.TestDate_Pure) ... ok
+test_extreme_ordinals (test.datetimetester.TestDate_Pure) ... ok
+test_extreme_timedelta (test.datetimetester.TestDate_Pure) ... ok
+test_format (test.datetimetester.TestDate_Pure) ... ok
+test_fromisoformat (test.datetimetester.TestDate_Pure) ... ok
+test_fromisoformat_fails (test.datetimetester.TestDate_Pure) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestDate_Pure) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestDate_Pure) ... ok
+test_fromtimestamp (test.datetimetester.TestDate_Pure) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestDate_Pure) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestDate_Pure) ... ok
+test_hash_equality (test.datetimetester.TestDate_Pure) ... ok
+test_insane_fromtimestamp (test.datetimetester.TestDate_Pure) ... ok
+test_iso_long_years (test.datetimetester.TestDate_Pure) ... ok
+test_isocalendar (test.datetimetester.TestDate_Pure) ... ok
+test_isoformat (test.datetimetester.TestDate_Pure) ... ok
+test_mixed_compare (test.datetimetester.TestDate_Pure) ... ok
+test_ordinal_conversions (test.datetimetester.TestDate_Pure) ... ok
+test_overflow (test.datetimetester.TestDate_Pure) ... ok
+test_pickling (test.datetimetester.TestDate_Pure) ... ok
+test_pickling_subclass_date (test.datetimetester.TestDate_Pure) ... ok
+test_replace (test.datetimetester.TestDate_Pure) ... ok
+test_resolution_info (test.datetimetester.TestDate_Pure) ... ok
+test_roundtrip (test.datetimetester.TestDate_Pure) ... ok
+test_strftime (test.datetimetester.TestDate_Pure) ... ok
+test_strftime_trailing_percent (test.datetimetester.TestDate_Pure) ... skipped 'time module does not support trailing %'
+test_strftime_y2k (test.datetimetester.TestDate_Pure) ... ok
+test_subclass_alternate_constructors (test.datetimetester.TestDate_Pure) ... ok
+test_subclass_date (test.datetimetester.TestDate_Pure) ... ok
+test_subclass_replace (test.datetimetester.TestDate_Pure) ... ok
+test_timetuple (test.datetimetester.TestDate_Pure) ... ok
+test_today (test.datetimetester.TestDate_Pure) ... ok
+test_weekday (test.datetimetester.TestDate_Pure) ... ok
+test_delta_non_days_ignored (test.datetimetester.TestDateOnly_Pure) ... ok
+test_astimezone (test.datetimetester.TestDateTime_Pure) ... skipped 'tzset required'
+test_backdoor_resistance (test.datetimetester.TestDateTime_Pure) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestDateTime_Pure) ... ok
+test_basic_attributes (test.datetimetester.TestDateTime_Pure) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestDateTime_Pure) ... ok
+test_bool (test.datetimetester.TestDateTime_Pure) ... ok
+test_combine (test.datetimetester.TestDateTime_Pure) ... ok
+test_compare (test.datetimetester.TestDateTime_Pure) ... ok
+test_compat_unpickle (test.datetimetester.TestDateTime_Pure) ... ok
+test_computations (test.datetimetester.TestDateTime_Pure) ... ok
+test_ctime (test.datetimetester.TestDateTime_Pure) ... ok
+test_extract (test.datetimetester.TestDateTime_Pure) ... ok
+test_extreme_ordinals (test.datetimetester.TestDateTime_Pure) ... ok
+test_extreme_timedelta (test.datetimetester.TestDateTime_Pure) ... ok
+test_format (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_ambiguous (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_datetime (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_fails (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_fails_datetime (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_fails_surrogate (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_separators (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_timespecs (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_timezone (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromisoformat_utc (test.datetimetester.TestDateTime_Pure) ... ok
+test_fromtimestamp (test.datetimetester.TestDateTime_Pure) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestDateTime_Pure) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestDateTime_Pure) ... ok
+test_hash_equality (test.datetimetester.TestDateTime_Pure) ... ok
+test_insane_fromtimestamp (test.datetimetester.TestDateTime_Pure) ... ok
+test_insane_utcfromtimestamp (test.datetimetester.TestDateTime_Pure) ... ok
+test_iso_long_years (test.datetimetester.TestDateTime_Pure) ... ok
+test_isocalendar (test.datetimetester.TestDateTime_Pure) ... ok
+test_isoformat (test.datetimetester.TestDateTime_Pure) ... ok
+test_isoformat_timezone (test.datetimetester.TestDateTime_Pure) ... ok
+test_microsecond_rounding (test.datetimetester.TestDateTime_Pure) ... skipped 'tzset required'
+test_mixed_compare (test.datetimetester.TestDateTime_Pure) ... ok
+test_more_compare (test.datetimetester.TestDateTime_Pure) ... ok
+test_more_ctime (test.datetimetester.TestDateTime_Pure) ... ok
+test_more_pickling (test.datetimetester.TestDateTime_Pure) ... ok
+test_more_strftime (test.datetimetester.TestDateTime_Pure) ... ok
+test_more_timetuple (test.datetimetester.TestDateTime_Pure) ... ok
+test_negative_float_fromtimestamp (test.datetimetester.TestDateTime_Pure) ... skipped "Windows doesn't accept negative timestamps"
+test_negative_float_utcfromtimestamp (test.datetimetester.TestDateTime_Pure) ... skipped "Windows doesn't accept negative timestamps"
+test_ordinal_conversions (test.datetimetester.TestDateTime_Pure) ... ok
+test_overflow (test.datetimetester.TestDateTime_Pure) ... ok
+test_pickling (test.datetimetester.TestDateTime_Pure) ... ok
+test_pickling_subclass_date (test.datetimetester.TestDateTime_Pure) ... ok
+test_pickling_subclass_datetime (test.datetimetester.TestDateTime_Pure) ... ok
+test_replace (test.datetimetester.TestDateTime_Pure) ... ok
+test_resolution_info (test.datetimetester.TestDateTime_Pure) ... ok
+test_roundtrip (test.datetimetester.TestDateTime_Pure) ... ok
+test_strftime (test.datetimetester.TestDateTime_Pure) ... ok
+test_strftime_trailing_percent (test.datetimetester.TestDateTime_Pure) ... skipped 'time module does not support trailing %'
+test_strftime_with_bad_tzname_replace (test.datetimetester.TestDateTime_Pure) ... ok
+test_strftime_y2k (test.datetimetester.TestDateTime_Pure) ... ok
+test_strptime (test.datetimetester.TestDateTime_Pure) ... ok
+test_strptime_single_digit (test.datetimetester.TestDateTime_Pure) ... ok
+test_subclass_alternate_constructors (test.datetimetester.TestDateTime_Pure) ... ok
+test_subclass_alternate_constructors_datetime (test.datetimetester.TestDateTime_Pure) ... ok
+test_subclass_date (test.datetimetester.TestDateTime_Pure) ... ok
+test_subclass_datetime (test.datetimetester.TestDateTime_Pure) ... ok
+test_subclass_replace (test.datetimetester.TestDateTime_Pure) ... ok
+test_timestamp_aware (test.datetimetester.TestDateTime_Pure) ... ok
+test_timestamp_limits (test.datetimetester.TestDateTime_Pure) ... skipped '[Errno 22] Invalid argument'
+test_timestamp_naive (test.datetimetester.TestDateTime_Pure) ... skipped 'tzset required'
+test_timetuple (test.datetimetester.TestDateTime_Pure) ... ok
+test_today (test.datetimetester.TestDateTime_Pure) ... ok
+test_tz_independent_comparing (test.datetimetester.TestDateTime_Pure) ... ok
+test_utcfromtimestamp (test.datetimetester.TestDateTime_Pure) ... ok
+test_utcnow (test.datetimetester.TestDateTime_Pure) ... ok
+test_weekday (test.datetimetester.TestDateTime_Pure) ... ok
+test_argument_passing (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_astimezone (test.datetimetester.TestDateTimeTZ_Pure) ... skipped 'tzset required'
+test_astimezone_default_eastern (test.datetimetester.TestDateTimeTZ_Pure) ... skipped 'tzset required'
+test_astimezone_default_near_fold (test.datetimetester.TestDateTimeTZ_Pure) ... skipped 'tzset required'
+test_astimezone_default_utc (test.datetimetester.TestDateTimeTZ_Pure) ... skipped 'tzset required'
+test_aware_compare (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_aware_subtract (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_backdoor_resistance (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_bad_tzinfo_classes (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_basic_attributes (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_bool (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_combine (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_compare (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_compat_unpickle (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_computations (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_ctime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_even_more_compare (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_extract (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_extreme_hashes (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_extreme_ordinals (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_extreme_timedelta (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_format (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_ambiguous (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_datetime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_fails (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_fails_datetime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_fails_surrogate (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_separators (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_timespecs (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_timezone (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromisoformat_utc (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_fromtimestamp (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_hash_equality (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_insane_fromtimestamp (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_insane_utcfromtimestamp (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_iso_long_years (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_isocalendar (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_isoformat (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_isoformat_timezone (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_microsecond_rounding (test.datetimetester.TestDateTimeTZ_Pure) ... skipped 'tzset required'
+test_mixed_compare (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_more_astimezone (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_more_compare (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_more_ctime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_more_pickling (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_more_strftime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_more_timetuple (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_negative_float_fromtimestamp (test.datetimetester.TestDateTimeTZ_Pure) ... skipped "Windows doesn't accept negative timestamps"
+test_negative_float_utcfromtimestamp (test.datetimetester.TestDateTimeTZ_Pure) ... skipped "Windows doesn't accept negative timestamps"
+test_ordinal_conversions (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_overflow (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_pickling (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_pickling_subclass_date (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_pickling_subclass_datetime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_replace (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_resolution_info (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_roundtrip (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_strftime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_strftime_trailing_percent (test.datetimetester.TestDateTimeTZ_Pure) ... skipped 'time module does not support trailing %'
+test_strftime_with_bad_tzname_replace (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_strftime_y2k (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_strptime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_strptime_single_digit (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_subclass_alternate_constructors (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_subclass_alternate_constructors_datetime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_subclass_date (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_subclass_datetime (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_subclass_datetimetz (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_subclass_replace (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_timestamp_aware (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_timestamp_limits (test.datetimetester.TestDateTimeTZ_Pure) ... skipped '[Errno 22] Invalid argument'
+test_timestamp_naive (test.datetimetester.TestDateTimeTZ_Pure) ... skipped 'tzset required'
+test_timetuple (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_today (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_trivial (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tz_aware_arithmetic (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tz_independent_comparing (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tzinfo_classes (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tzinfo_fromtimestamp (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tzinfo_isoformat (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tzinfo_now (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tzinfo_timetuple (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tzinfo_utcfromtimestamp (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_tzinfo_utcnow (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_utc_offset_out_of_bounds (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_utcfromtimestamp (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_utcnow (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_utctimetuple (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_weekday (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_zones (test.datetimetester.TestDateTimeTZ_Pure) ... ok
+test_astimezone (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... skipped 'tzset required'
+test_comparison (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_constructors (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_dst (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_fromtimestamp (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... skipped 'tzset required'
+test_fromtimestamp_lord_howe (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... skipped 'tzset required'
+test_fromtimestamp_low_fold_detection (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_fromutc (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_hash (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_hash_aware (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_member (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_mixed_compare_fold (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_mixed_compare_gap (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_mixed_compare_regular (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_pickle_fold (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_replace (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_repr (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_timestamp (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... skipped 'tzset required'
+test_timestamp_lord_howe (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... skipped 'tzset required'
+test_utcoffset (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_vilnius_1941_fromutc (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_vilnius_1941_toutc (test.datetimetester.TestLocalTimeDisambiguation_Pure) ... ok
+test_constants (test.datetimetester.TestModule_Pure) ... ok
+test_divide_and_round (test.datetimetester.TestModule_Pure) ... ok
+test_name_cleanup (test.datetimetester.TestModule_Pure) ... skipped 'Only run for Fast C implementation'
+test_astimezone (test.datetimetester.TestSubclassDateTime_Pure) ... skipped 'tzset required'
+test_backdoor_resistance (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_basic_attributes (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_bool (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_combine (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_compare (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_compat_unpickle (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_computations (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_ctime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_extract (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_extreme_ordinals (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_extreme_timedelta (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_format (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_ambiguous (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_datetime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_fails (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_fails_datetime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_fails_surrogate (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_separators (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_timespecs (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_timezone (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromisoformat_utc (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_fromtimestamp (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_hash_equality (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_insane_fromtimestamp (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_insane_utcfromtimestamp (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_iso_long_years (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_isocalendar (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_isoformat (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_isoformat_timezone (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_microsecond_rounding (test.datetimetester.TestSubclassDateTime_Pure) ... skipped 'tzset required'
+test_mixed_compare (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_more_compare (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_more_ctime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_more_pickling (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_more_strftime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_more_timetuple (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_negative_float_fromtimestamp (test.datetimetester.TestSubclassDateTime_Pure) ... skipped "Windows doesn't accept negative timestamps"
+test_negative_float_utcfromtimestamp (test.datetimetester.TestSubclassDateTime_Pure) ... skipped "Windows doesn't accept negative timestamps"
+test_ordinal_conversions (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_overflow (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_pickling (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_pickling_subclass_date (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_pickling_subclass_datetime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_replace (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_resolution_info (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_roundtrip (test.datetimetester.TestSubclassDateTime_Pure) ... skipped 'not appropriate for subclasses'
+test_strftime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_strftime_trailing_percent (test.datetimetester.TestSubclassDateTime_Pure) ... skipped 'time module does not support trailing %'
+test_strftime_with_bad_tzname_replace (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_strftime_y2k (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_strptime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_strptime_single_digit (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_subclass_alternate_constructors (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_subclass_alternate_constructors_datetime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_subclass_date (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_subclass_datetime (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_subclass_replace (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_timestamp_aware (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_timestamp_limits (test.datetimetester.TestSubclassDateTime_Pure) ... skipped '[Errno 22] Invalid argument'
+test_timestamp_naive (test.datetimetester.TestSubclassDateTime_Pure) ... skipped 'tzset required'
+test_timetuple (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_today (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_tz_independent_comparing (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_utcfromtimestamp (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_utcnow (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_weekday (test.datetimetester.TestSubclassDateTime_Pure) ... ok
+test_issue23600 (test.datetimetester.TestTZInfo_Pure) ... ok
+test_non_abstractness (test.datetimetester.TestTZInfo_Pure) ... ok
+test_normal (test.datetimetester.TestTZInfo_Pure) ... ok
+test_pickling_base (test.datetimetester.TestTZInfo_Pure) ... ok
+test_pickling_subclass (test.datetimetester.TestTZInfo_Pure) ... ok
+test_refcnt_crash_bug_22044 (test.datetimetester.TestTZInfo_Pure) ... ok
+test_subclass_must_override (test.datetimetester.TestTZInfo_Pure) ... ok
+test_1653736 (test.datetimetester.TestTime_Pure) ... ok
+test_backdoor_resistance (test.datetimetester.TestTime_Pure) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestTime_Pure) ... ok
+test_basic_attributes (test.datetimetester.TestTime_Pure) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestTime_Pure) ... ok
+test_bool (test.datetimetester.TestTime_Pure) ... ok
+test_comparing (test.datetimetester.TestTime_Pure) ... ok
+test_compat_unpickle (test.datetimetester.TestTime_Pure) ... ok
+test_format (test.datetimetester.TestTime_Pure) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestTime_Pure) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestTime_Pure) ... ok
+test_hash_equality (test.datetimetester.TestTime_Pure) ... ok
+test_isoformat (test.datetimetester.TestTime_Pure) ... ok
+test_isoformat_timezone (test.datetimetester.TestTime_Pure) ... ok
+test_pickling (test.datetimetester.TestTime_Pure) ... ok
+test_pickling_subclass_time (test.datetimetester.TestTime_Pure) ... ok
+test_replace (test.datetimetester.TestTime_Pure) ... ok
+test_repr (test.datetimetester.TestTime_Pure) ... ok
+test_resolution_info (test.datetimetester.TestTime_Pure) ... ok
+test_roundtrip (test.datetimetester.TestTime_Pure) ... ok
+test_str (test.datetimetester.TestTime_Pure) ... ok
+test_strftime (test.datetimetester.TestTime_Pure) ... ok
+test_subclass_replace (test.datetimetester.TestTime_Pure) ... ok
+test_subclass_time (test.datetimetester.TestTime_Pure) ... ok
+test_basic_attributes (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_bool (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_carries (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_compare (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_computations (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_constructor (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_disallowed_computations (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_disallowed_special (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_division (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_divmod (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_hash_equality (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_issue31293 (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_issue31752 (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_massive_normalization (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_microsecond_rounding (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_overflow (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_pickling (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_remainder (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_repr (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_resolution_info (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_roundtrip (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_str (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_subclass_timedelta (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_total_seconds (test.datetimetester.TestTimeDelta_Pure) ... ok
+test_1653736 (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_argument_passing (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_aware_compare (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_backdoor_resistance (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_bad_tzinfo_classes (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_basic_attributes (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_bool (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_comparing (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_compat_unpickle (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_empty (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_format (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_fromisoformat (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_fromisoformat_fails (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_fromisoformat_timespecs (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_fromisoformat_timezone (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_hash_edge_cases (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_hash_equality (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_isoformat (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_isoformat_timezone (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_mixed_compare (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_more_bool (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_pickling (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_pickling_subclass_time (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_replace (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_repr (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_resolution_info (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_roundtrip (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_str (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_strftime (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_subclass_replace (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_subclass_time (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_subclass_timetz (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_tzinfo_classes (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_utc_offset_out_of_bounds (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_zones (test.datetimetester.TestTimeTZ_Pure) ... ok
+test_aware_datetime (test.datetimetester.TestTimeZone_Pure) ... ok
+test_class_members (test.datetimetester.TestTimeZone_Pure) ... ok
+test_comparison (test.datetimetester.TestTimeZone_Pure) ... ok
+test_constructor (test.datetimetester.TestTimeZone_Pure) ... ok
+test_copy (test.datetimetester.TestTimeZone_Pure) ... ok
+test_deepcopy (test.datetimetester.TestTimeZone_Pure) ... ok
+test_dst (test.datetimetester.TestTimeZone_Pure) ... ok
+test_fromutc (test.datetimetester.TestTimeZone_Pure) ... ok
+test_inheritance (test.datetimetester.TestTimeZone_Pure) ... ok
+test_pickle (test.datetimetester.TestTimeZone_Pure) ... ok
+test_repr (test.datetimetester.TestTimeZone_Pure) ... ok
+test_str (test.datetimetester.TestTimeZone_Pure) ... ok
+test_tzname (test.datetimetester.TestTimeZone_Pure) ... ok
+test_utcoffset (test.datetimetester.TestTimeZone_Pure) ... ok
+test_bogus_dst (test.datetimetester.TestTimezoneConversions_Pure) ... ok
+test_easy (test.datetimetester.TestTimezoneConversions_Pure) ... ok
+test_fromutc (test.datetimetester.TestTimezoneConversions_Pure) ... ok
+test_tricky (test.datetimetester.TestTimezoneConversions_Pure) ... ok
+test_folds (test.datetimetester.ZoneInfoTest_Pure) ... skipped 'Skipping zoneinfo tests on Windows'
+test_gaps (test.datetimetester.ZoneInfoTest_Pure) ... skipped 'Skipping zoneinfo tests on Windows'
+test_system_transitions (test.datetimetester.ZoneInfoTest_Pure) ... skipped 'Skipping zoneinfo tests on Windows'
+test_check_date (test.datetimetester.CapiTest_Fast) ... ok
+test_check_datetime (test.datetimetester.CapiTest_Fast) ... ok
+test_check_delta (test.datetimetester.CapiTest_Fast) ... ok
+test_check_time (test.datetimetester.CapiTest_Fast) ... ok
+test_check_tzinfo (test.datetimetester.CapiTest_Fast) ... ok
+test_timezones_capi (test.datetimetester.CapiTest_Fast) ... ok
+test_timezones_offset_zero (test.datetimetester.CapiTest_Fast) ... ok
+test_utc_capi (test.datetimetester.CapiTest_Fast) ... ok
+test_folds (test.datetimetester.IranTest_Fast) ... skipped 'Skipping zoneinfo tests on Windows'
+test_gaps (test.datetimetester.IranTest_Fast) ... skipped 'Skipping zoneinfo tests on Windows'
+test_system_transitions (test.datetimetester.IranTest_Fast) ... skipped 'Skipping zoneinfo tests on Windows'
+test_bug_1028306 (test.datetimetester.Oddballs_Fast) ... ok
+test_check_arg_types (test.datetimetester.Oddballs_Fast) ... ok
+test_extra_attributes (test.datetimetester.Oddballs_Fast) ... ok
+test_backdoor_resistance (test.datetimetester.TestDate_Fast) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestDate_Fast) ... ok
+test_basic_attributes (test.datetimetester.TestDate_Fast) ... ok
+test_bool (test.datetimetester.TestDate_Fast) ... ok
+test_compare (test.datetimetester.TestDate_Fast) ... ok
+test_compat_unpickle (test.datetimetester.TestDate_Fast) ... ok
+test_computations (test.datetimetester.TestDate_Fast) ... ok
+test_ctime (test.datetimetester.TestDate_Fast) ... ok
+test_extreme_ordinals (test.datetimetester.TestDate_Fast) ... ok
+test_extreme_timedelta (test.datetimetester.TestDate_Fast) ... ok
+test_format (test.datetimetester.TestDate_Fast) ... ok
+test_fromisoformat (test.datetimetester.TestDate_Fast) ... ok
+test_fromisoformat_fails (test.datetimetester.TestDate_Fast) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestDate_Fast) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestDate_Fast) ... ok
+test_fromtimestamp (test.datetimetester.TestDate_Fast) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestDate_Fast) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestDate_Fast) ... ok
+test_hash_equality (test.datetimetester.TestDate_Fast) ... ok
+test_insane_fromtimestamp (test.datetimetester.TestDate_Fast) ... ok
+test_iso_long_years (test.datetimetester.TestDate_Fast) ... ok
+test_isocalendar (test.datetimetester.TestDate_Fast) ... ok
+test_isoformat (test.datetimetester.TestDate_Fast) ... ok
+test_mixed_compare (test.datetimetester.TestDate_Fast) ... ok
+test_ordinal_conversions (test.datetimetester.TestDate_Fast) ... ok
+test_overflow (test.datetimetester.TestDate_Fast) ... ok
+test_pickling (test.datetimetester.TestDate_Fast) ... ok
+test_pickling_subclass_date (test.datetimetester.TestDate_Fast) ... ok
+test_replace (test.datetimetester.TestDate_Fast) ... ok
+test_resolution_info (test.datetimetester.TestDate_Fast) ... ok
+test_roundtrip (test.datetimetester.TestDate_Fast) ... ok
+test_strftime (test.datetimetester.TestDate_Fast) ... ok
+test_strftime_trailing_percent (test.datetimetester.TestDate_Fast) ... skipped 'time module does not support trailing %'
+test_strftime_y2k (test.datetimetester.TestDate_Fast) ... ok
+test_subclass_alternate_constructors (test.datetimetester.TestDate_Fast) ... ok
+test_subclass_date (test.datetimetester.TestDate_Fast) ... ok
+test_subclass_replace (test.datetimetester.TestDate_Fast) ... ok
+test_timetuple (test.datetimetester.TestDate_Fast) ... ok
+test_today (test.datetimetester.TestDate_Fast) ... ok
+test_weekday (test.datetimetester.TestDate_Fast) ... ok
+test_delta_non_days_ignored (test.datetimetester.TestDateOnly_Fast) ... ok
+test_astimezone (test.datetimetester.TestDateTime_Fast) ... skipped 'tzset required'
+test_backdoor_resistance (test.datetimetester.TestDateTime_Fast) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestDateTime_Fast) ... ok
+test_basic_attributes (test.datetimetester.TestDateTime_Fast) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestDateTime_Fast) ... ok
+test_bool (test.datetimetester.TestDateTime_Fast) ... ok
+test_combine (test.datetimetester.TestDateTime_Fast) ... ok
+test_compare (test.datetimetester.TestDateTime_Fast) ... ok
+test_compat_unpickle (test.datetimetester.TestDateTime_Fast) ... ok
+test_computations (test.datetimetester.TestDateTime_Fast) ... ok
+test_ctime (test.datetimetester.TestDateTime_Fast) ... ok
+test_extract (test.datetimetester.TestDateTime_Fast) ... ok
+test_extreme_ordinals (test.datetimetester.TestDateTime_Fast) ... ok
+test_extreme_timedelta (test.datetimetester.TestDateTime_Fast) ... ok
+test_format (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_ambiguous (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_datetime (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_fails (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_fails_datetime (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_fails_surrogate (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_separators (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_timespecs (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_timezone (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromisoformat_utc (test.datetimetester.TestDateTime_Fast) ... ok
+test_fromtimestamp (test.datetimetester.TestDateTime_Fast) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestDateTime_Fast) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestDateTime_Fast) ... ok
+test_hash_equality (test.datetimetester.TestDateTime_Fast) ... ok
+test_insane_fromtimestamp (test.datetimetester.TestDateTime_Fast) ... ok
+test_insane_utcfromtimestamp (test.datetimetester.TestDateTime_Fast) ... ok
+test_iso_long_years (test.datetimetester.TestDateTime_Fast) ... ok
+test_isocalendar (test.datetimetester.TestDateTime_Fast) ... ok
+test_isoformat (test.datetimetester.TestDateTime_Fast) ... ok
+test_isoformat_timezone (test.datetimetester.TestDateTime_Fast) ... ok
+test_microsecond_rounding (test.datetimetester.TestDateTime_Fast) ... skipped 'tzset required'
+test_mixed_compare (test.datetimetester.TestDateTime_Fast) ... ok
+test_more_compare (test.datetimetester.TestDateTime_Fast) ... ok
+test_more_ctime (test.datetimetester.TestDateTime_Fast) ... ok
+test_more_pickling (test.datetimetester.TestDateTime_Fast) ... ok
+test_more_strftime (test.datetimetester.TestDateTime_Fast) ... ok
+test_more_timetuple (test.datetimetester.TestDateTime_Fast) ... ok
+test_negative_float_fromtimestamp (test.datetimetester.TestDateTime_Fast) ... skipped "Windows doesn't accept negative timestamps"
+test_negative_float_utcfromtimestamp (test.datetimetester.TestDateTime_Fast) ... skipped "Windows doesn't accept negative timestamps"
+test_ordinal_conversions (test.datetimetester.TestDateTime_Fast) ... ok
+test_overflow (test.datetimetester.TestDateTime_Fast) ... ok
+test_pickling (test.datetimetester.TestDateTime_Fast) ... ok
+test_pickling_subclass_date (test.datetimetester.TestDateTime_Fast) ... ok
+test_pickling_subclass_datetime (test.datetimetester.TestDateTime_Fast) ... ok
+test_replace (test.datetimetester.TestDateTime_Fast) ... ok
+test_resolution_info (test.datetimetester.TestDateTime_Fast) ... ok
+test_roundtrip (test.datetimetester.TestDateTime_Fast) ... ok
+test_strftime (test.datetimetester.TestDateTime_Fast) ... ok
+test_strftime_trailing_percent (test.datetimetester.TestDateTime_Fast) ... skipped 'time module does not support trailing %'
+test_strftime_with_bad_tzname_replace (test.datetimetester.TestDateTime_Fast) ... ok
+test_strftime_y2k (test.datetimetester.TestDateTime_Fast) ... ok
+test_strptime (test.datetimetester.TestDateTime_Fast) ... ok
+test_strptime_single_digit (test.datetimetester.TestDateTime_Fast) ... ok
+test_subclass_alternate_constructors (test.datetimetester.TestDateTime_Fast) ... ok
+test_subclass_alternate_constructors_datetime (test.datetimetester.TestDateTime_Fast) ... ok
+test_subclass_date (test.datetimetester.TestDateTime_Fast) ... ok
+test_subclass_datetime (test.datetimetester.TestDateTime_Fast) ... ok
+test_subclass_replace (test.datetimetester.TestDateTime_Fast) ... ok
+test_timestamp_aware (test.datetimetester.TestDateTime_Fast) ... ok
+test_timestamp_limits (test.datetimetester.TestDateTime_Fast) ... skipped '[Errno 22] Invalid argument'
+test_timestamp_naive (test.datetimetester.TestDateTime_Fast) ... skipped 'tzset required'
+test_timetuple (test.datetimetester.TestDateTime_Fast) ... ok
+test_today (test.datetimetester.TestDateTime_Fast) ... ok
+test_tz_independent_comparing (test.datetimetester.TestDateTime_Fast) ... ok
+test_utcfromtimestamp (test.datetimetester.TestDateTime_Fast) ... ok
+test_utcnow (test.datetimetester.TestDateTime_Fast) ... ok
+test_weekday (test.datetimetester.TestDateTime_Fast) ... ok
+test_argument_passing (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_astimezone (test.datetimetester.TestDateTimeTZ_Fast) ... skipped 'tzset required'
+test_astimezone_default_eastern (test.datetimetester.TestDateTimeTZ_Fast) ... skipped 'tzset required'
+test_astimezone_default_near_fold (test.datetimetester.TestDateTimeTZ_Fast) ... skipped 'tzset required'
+test_astimezone_default_utc (test.datetimetester.TestDateTimeTZ_Fast) ... skipped 'tzset required'
+test_aware_compare (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_aware_subtract (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_backdoor_resistance (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_bad_tzinfo_classes (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_basic_attributes (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_bool (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_combine (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_compare (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_compat_unpickle (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_computations (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_ctime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_even_more_compare (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_extract (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_extreme_hashes (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_extreme_ordinals (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_extreme_timedelta (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_format (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_ambiguous (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_datetime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_fails (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_fails_datetime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_fails_surrogate (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_separators (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_timespecs (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_timezone (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromisoformat_utc (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_fromtimestamp (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_hash_equality (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_insane_fromtimestamp (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_insane_utcfromtimestamp (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_iso_long_years (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_isocalendar (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_isoformat (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_isoformat_timezone (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_microsecond_rounding (test.datetimetester.TestDateTimeTZ_Fast) ... skipped 'tzset required'
+test_mixed_compare (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_more_astimezone (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_more_compare (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_more_ctime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_more_pickling (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_more_strftime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_more_timetuple (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_negative_float_fromtimestamp (test.datetimetester.TestDateTimeTZ_Fast) ... skipped "Windows doesn't accept negative timestamps"
+test_negative_float_utcfromtimestamp (test.datetimetester.TestDateTimeTZ_Fast) ... skipped "Windows doesn't accept negative timestamps"
+test_ordinal_conversions (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_overflow (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_pickling (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_pickling_subclass_date (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_pickling_subclass_datetime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_replace (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_resolution_info (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_roundtrip (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_strftime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_strftime_trailing_percent (test.datetimetester.TestDateTimeTZ_Fast) ... skipped 'time module does not support trailing %'
+test_strftime_with_bad_tzname_replace (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_strftime_y2k (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_strptime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_strptime_single_digit (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_subclass_alternate_constructors (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_subclass_alternate_constructors_datetime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_subclass_date (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_subclass_datetime (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_subclass_datetimetz (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_subclass_replace (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_timestamp_aware (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_timestamp_limits (test.datetimetester.TestDateTimeTZ_Fast) ... skipped '[Errno 22] Invalid argument'
+test_timestamp_naive (test.datetimetester.TestDateTimeTZ_Fast) ... skipped 'tzset required'
+test_timetuple (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_today (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_trivial (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tz_aware_arithmetic (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tz_independent_comparing (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tzinfo_classes (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tzinfo_fromtimestamp (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tzinfo_isoformat (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tzinfo_now (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tzinfo_timetuple (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tzinfo_utcfromtimestamp (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_tzinfo_utcnow (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_utc_offset_out_of_bounds (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_utcfromtimestamp (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_utcnow (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_utctimetuple (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_weekday (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_zones (test.datetimetester.TestDateTimeTZ_Fast) ... ok
+test_astimezone (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... skipped 'tzset required'
+test_comparison (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_constructors (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_dst (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_fromtimestamp (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... skipped 'tzset required'
+test_fromtimestamp_lord_howe (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... skipped 'tzset required'
+test_fromtimestamp_low_fold_detection (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_fromutc (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_hash (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_hash_aware (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_member (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_mixed_compare_fold (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_mixed_compare_gap (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_mixed_compare_regular (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_pickle_fold (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_replace (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_repr (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_timestamp (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... skipped 'tzset required'
+test_timestamp_lord_howe (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... skipped 'tzset required'
+test_utcoffset (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_vilnius_1941_fromutc (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_vilnius_1941_toutc (test.datetimetester.TestLocalTimeDisambiguation_Fast) ... ok
+test_constants (test.datetimetester.TestModule_Fast) ... ok
+test_divide_and_round (test.datetimetester.TestModule_Fast) ... skipped 'Only run for Pure Python implementation'
+test_name_cleanup (test.datetimetester.TestModule_Fast) ... ok
+test_astimezone (test.datetimetester.TestSubclassDateTime_Fast) ... skipped 'tzset required'
+test_backdoor_resistance (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_basic_attributes (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_bool (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_combine (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_compare (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_compat_unpickle (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_computations (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_ctime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_extract (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_extreme_ordinals (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_extreme_timedelta (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_format (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_ambiguous (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_datetime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_fails (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_fails_datetime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_fails_surrogate (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_separators (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_timespecs (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_timezone (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromisoformat_utc (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_fromtimestamp (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_hash_equality (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_insane_fromtimestamp (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_insane_utcfromtimestamp (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_iso_long_years (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_isocalendar (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_isoformat (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_isoformat_timezone (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_microsecond_rounding (test.datetimetester.TestSubclassDateTime_Fast) ... skipped 'tzset required'
+test_mixed_compare (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_more_compare (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_more_ctime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_more_pickling (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_more_strftime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_more_timetuple (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_negative_float_fromtimestamp (test.datetimetester.TestSubclassDateTime_Fast) ... skipped "Windows doesn't accept negative timestamps"
+test_negative_float_utcfromtimestamp (test.datetimetester.TestSubclassDateTime_Fast) ... skipped "Windows doesn't accept negative timestamps"
+test_ordinal_conversions (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_overflow (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_pickling (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_pickling_subclass_date (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_pickling_subclass_datetime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_replace (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_resolution_info (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_roundtrip (test.datetimetester.TestSubclassDateTime_Fast) ... skipped 'not appropriate for subclasses'
+test_strftime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_strftime_trailing_percent (test.datetimetester.TestSubclassDateTime_Fast) ... skipped 'time module does not support trailing %'
+test_strftime_with_bad_tzname_replace (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_strftime_y2k (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_strptime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_strptime_single_digit (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_subclass_alternate_constructors (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_subclass_alternate_constructors_datetime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_subclass_date (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_subclass_datetime (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_subclass_replace (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_timestamp_aware (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_timestamp_limits (test.datetimetester.TestSubclassDateTime_Fast) ... skipped '[Errno 22] Invalid argument'
+test_timestamp_naive (test.datetimetester.TestSubclassDateTime_Fast) ... skipped 'tzset required'
+test_timetuple (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_today (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_tz_independent_comparing (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_utcfromtimestamp (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_utcnow (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_weekday (test.datetimetester.TestSubclassDateTime_Fast) ... ok
+test_issue23600 (test.datetimetester.TestTZInfo_Fast) ... ok
+test_non_abstractness (test.datetimetester.TestTZInfo_Fast) ... ok
+test_normal (test.datetimetester.TestTZInfo_Fast) ... ok
+test_pickling_base (test.datetimetester.TestTZInfo_Fast) ... ok
+test_pickling_subclass (test.datetimetester.TestTZInfo_Fast) ... ok
+test_refcnt_crash_bug_22044 (test.datetimetester.TestTZInfo_Fast) ... ok
+test_subclass_must_override (test.datetimetester.TestTZInfo_Fast) ... ok
+test_1653736 (test.datetimetester.TestTime_Fast) ... ok
+test_backdoor_resistance (test.datetimetester.TestTime_Fast) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestTime_Fast) ... ok
+test_basic_attributes (test.datetimetester.TestTime_Fast) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestTime_Fast) ... ok
+test_bool (test.datetimetester.TestTime_Fast) ... ok
+test_comparing (test.datetimetester.TestTime_Fast) ... ok
+test_compat_unpickle (test.datetimetester.TestTime_Fast) ... ok
+test_format (test.datetimetester.TestTime_Fast) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestTime_Fast) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestTime_Fast) ... ok
+test_hash_equality (test.datetimetester.TestTime_Fast) ... ok
+test_isoformat (test.datetimetester.TestTime_Fast) ... ok
+test_isoformat_timezone (test.datetimetester.TestTime_Fast) ... ok
+test_pickling (test.datetimetester.TestTime_Fast) ... ok
+test_pickling_subclass_time (test.datetimetester.TestTime_Fast) ... ok
+test_replace (test.datetimetester.TestTime_Fast) ... ok
+test_repr (test.datetimetester.TestTime_Fast) ... ok
+test_resolution_info (test.datetimetester.TestTime_Fast) ... ok
+test_roundtrip (test.datetimetester.TestTime_Fast) ... ok
+test_str (test.datetimetester.TestTime_Fast) ... ok
+test_strftime (test.datetimetester.TestTime_Fast) ... ok
+test_subclass_replace (test.datetimetester.TestTime_Fast) ... ok
+test_subclass_time (test.datetimetester.TestTime_Fast) ... ok
+test_basic_attributes (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_bool (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_carries (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_compare (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_computations (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_constructor (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_disallowed_computations (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_disallowed_special (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_division (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_divmod (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_hash_equality (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_issue31293 (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_issue31752 (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_massive_normalization (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_microsecond_rounding (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_overflow (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_pickling (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_remainder (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_repr (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_resolution_info (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_roundtrip (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_str (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_subclass_timedelta (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_total_seconds (test.datetimetester.TestTimeDelta_Fast) ... ok
+test_1653736 (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_argument_passing (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_aware_compare (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_backdoor_resistance (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_bad_constructor_arguments (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_bad_tzinfo_classes (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_basic_attributes (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_basic_attributes_nonzero (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_bool (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_comparing (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_compat_unpickle (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_empty (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_format (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_fromisoformat (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_fromisoformat_fails (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_fromisoformat_fails_typeerror (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_fromisoformat_subclass (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_fromisoformat_timespecs (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_fromisoformat_timezone (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_harmful_mixed_comparison (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_harmless_mixed_comparison (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_hash_edge_cases (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_hash_equality (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_isoformat (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_isoformat_timezone (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_mixed_compare (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_more_bool (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_pickling (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_pickling_subclass_time (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_replace (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_repr (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_resolution_info (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_roundtrip (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_str (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_strftime (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_subclass_replace (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_subclass_time (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_subclass_timetz (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_tzinfo_classes (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_utc_offset_out_of_bounds (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_zones (test.datetimetester.TestTimeTZ_Fast) ... ok
+test_aware_datetime (test.datetimetester.TestTimeZone_Fast) ... ok
+test_class_members (test.datetimetester.TestTimeZone_Fast) ... ok
+test_comparison (test.datetimetester.TestTimeZone_Fast) ... ok
+test_constructor (test.datetimetester.TestTimeZone_Fast) ... ok
+test_copy (test.datetimetester.TestTimeZone_Fast) ... ok
+test_deepcopy (test.datetimetester.TestTimeZone_Fast) ... ok
+test_dst (test.datetimetester.TestTimeZone_Fast) ... ok
+test_fromutc (test.datetimetester.TestTimeZone_Fast) ... ok
+test_inheritance (test.datetimetester.TestTimeZone_Fast) ... ok
+test_pickle (test.datetimetester.TestTimeZone_Fast) ... ok
+test_repr (test.datetimetester.TestTimeZone_Fast) ... ok
+test_str (test.datetimetester.TestTimeZone_Fast) ... ok
+test_tzname (test.datetimetester.TestTimeZone_Fast) ... ok
+test_utcoffset (test.datetimetester.TestTimeZone_Fast) ... ok
+test_bogus_dst (test.datetimetester.TestTimezoneConversions_Fast) ... ok
+test_easy (test.datetimetester.TestTimezoneConversions_Fast) ... ok
+test_fromutc (test.datetimetester.TestTimezoneConversions_Fast) ... ok
+test_tricky (test.datetimetester.TestTimezoneConversions_Fast) ... ok
+test_folds (test.datetimetester.ZoneInfoTest_Fast) ... skipped 'Skipping zoneinfo tests on Windows'
+test_gaps (test.datetimetester.ZoneInfoTest_Fast) ... skipped 'Skipping zoneinfo tests on Windows'
+test_system_transitions (test.datetimetester.ZoneInfoTest_Fast) ... skipped 'Skipping zoneinfo tests on Windows'
+
+----------------------------------------------------------------------
+
+Ran 888 tests in 2.339s
+
+OK (skipped=84)

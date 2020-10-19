@@ -1,0 +1,18 @@
+test_debug_print (__main__.FileListTestCase) ... ok
+test_exclude_pattern (__main__.FileListTestCase) ... ok
+test_glob_to_re (__main__.FileListTestCase) ... ok
+test_include_pattern (__main__.FileListTestCase) ... ok
+test_process_template (__main__.FileListTestCase) ... ok
+test_process_template_line (__main__.FileListTestCase) ... ok
+test_remove_duplicates (__main__.FileListTestCase) ... ok
+test_set_allfiles (__main__.FileListTestCase) ... ok
+test_translate_pattern (__main__.FileListTestCase) ... ok
+test_basic_discovery (__main__.FindAllTestCase) ... ok
+test_missing_symlink (__main__.FindAllTestCase) ... skipped 'Requires functional symlink implementation'
+test_non_local_discovery (__main__.FindAllTestCase) ... ok
+
+----------------------------------------------------------------------
+
+Ran 12 tests in 0.014s
+
+OK (skipped=1)

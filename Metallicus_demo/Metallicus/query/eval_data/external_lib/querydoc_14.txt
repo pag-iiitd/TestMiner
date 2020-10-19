@@ -1,0 +1,7 @@
+assertNonEmptyString(String string)
+Asserts that string is not an empty string. If it is an empty string, then an exception will be thrown.
+White space is considered empty space so if string consists of four spaces with nothing else, then it is considered to be empty.
+@param string string to be asserted
+@return valid nonempty string
+@throws IllegalArgumentException thrown if the string is invalid in any way
+

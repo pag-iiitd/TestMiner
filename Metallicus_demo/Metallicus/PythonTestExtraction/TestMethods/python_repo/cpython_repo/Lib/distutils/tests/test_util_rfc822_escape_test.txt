@@ -1,0 +1,29 @@
+test_change_root (__main__.UtilTestCase) ... ok
+test_check_environ (__main__.UtilTestCase) ... ok
+test_convert_path (__main__.UtilTestCase) ... ok
+test_dont_write_bytecode (__main__.UtilTestCase) ... ok
+test_get_platform (__main__.UtilTestCase) ... ERROR
+test_grok_environment_error (__main__.UtilTestCase) ... ok
+test_rfc822_escape (__main__.UtilTestCase) ... ['I am a\npoor\nlonesome\nheader\n', 'header', 'python_str'], 
+['I am a\n        poor\n        lonesome\n        header\n        ', 'EXP_op', 'python_str']], [
+ok
+test_split_quoted (__main__.UtilTestCase) ... ok
+test_strtobool (__main__.UtilTestCase) ... ok
+
+======================================================================
+ERROR: test_get_platform (__main__.UtilTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "python_repo\cpython_repo\Lib\distutils\tests\test_util_rfc822_escape_instr.py", line 72, in test_get_platform
+    _osx_support._remove_original_values(get_config_vars())
+  File "C:\Users\Devika\AppData\Local\Programs\Python\Python37\lib\distutils\sysconfig.py", line 482, in get_config_vars
+    func()
+  File "C:\Users\Devika\AppData\Local\Programs\Python\Python37\lib\distutils\sysconfig.py", line 438, in _init_posix
+    abi=sys.abiflags,
+AttributeError: module 'sys' has no attribute 'abiflags'
+
+----------------------------------------------------------------------
+
+Ran 9 tests in 0.025s
+
+FAILED (errors=1)

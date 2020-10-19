@@ -1,0 +1,2 @@
+[[[;#We will meet at eight o'clock on Thursday morning.;#,'str','python_String'],[;#[(u'We', u'PRON'),  (u'will', u'AUX'), (u'meet', u'VERB'), (u'at', u'ADP'), (u'eight', u'NUM'), (u"o'clock", u'NOUN'), (u'on', u'ADP'),
+ (u'Thursday', u'PROPN'), (u'morning', u'NOUN'), (u'.', u'PUNCT')];#,'EXP_op','python_Object']]]

@@ -1,0 +1,600 @@
+
+************
+Query: escapeXml(final String input) Escapes the characters in a {@code String} using XML entities.<p>\n \n <p>For example: {@code "bread" & "butter"} =&gt;\n {@code &quot;bread&quot; &amp; &quot;butter&quot;}.\n <p>\n \n <p>Supports only the five basic XML entities (gt, lt, quot, amp, apos).\n Does not support DTDs or external entities.<p>\n \n <p>Note that Unicode characters greater than 0x7f are as of 3.0, no longer\n escaped. If you still wish this functionality, you can achieve it\n via the following:\n {@code StringEscapeUtils.ESCAPE_XML.with( NumericEntityEscaper.between(0x7f, Integer.MAX_VALUE) );}<p>\n \n @param input the {@code String} to escape, may be null\n @return a new escaped {@code String}, {@code null} if null string input\n @see #unescapeXml(java.lang.String)\n @deprecated use {@link #escapeXml10(java.lang.String)} or {@link #escapeXml11(java.lang.String)} instead.
+
+*+++++++++++
+Expected: escape(pattern)
+
+++++++++++++
+Matches found:
+FOUND!
+[((8629,), 0.7281868376054116, 'xmlAttributeEscaper()'), ((7832,), 0.7281868376054116, 'xmlAttributeEscaper()'), ((11094,), 0.7079660100147683, 'htmlEscaper()'), ((7815,), 0.7079660100147683, 'htmlEscaper()'), ((7831,), 0.691055130106512, 'xxxEscaper()'), ((8628,), 0.691055130106512, 'xxxEscaper()'), ((5478,), 0.6422553106931166, 'escapeJson(final String input)'), ((10832,), 0.5990389577483394, 'escape(String string)'), ((29996,), 0.5943676264161997, 'escape(pattern)'), ((27638,), 0.5875547026033523, 'escape(pathname)'), ((27676,), 0.5785438920985375, 'escape(s, quote=True)'), ((31703,), 0.5286207600545427, 'quoteattr(data, entities={})')]
+
+************
+Query: tagged_chunks(self, fileids=None, tag=u\'pos\' or u\'sem\' or u\'both\') :return: the given file(s) as a list of tagged chunks, represented
+    in tree form.
+:rtype: list(Tree)
+
+:param tag: `'pos'` (part of speech), `'sem'` (semantic), or `'both'`
+    to indicate the kind of tags to include.  Semantic tags consist of
+    WordNet lemma IDs, plus an `'NE'` node if the chunk is a named entity
+    without a specific entry in WordNet.  (Named entities of type 'other'
+    have no lemma.  Other chunks not in WordNet have no semantic tag.
+    Punctuation tokens have `None` for their part of speech tag.)
+
+*+++++++++++
+Expected: chunk(String[] toks, String[] tags)
+
+++++++++++++
+Matches found:
+[((317,), 0.7020748095225093, 'chunked_paras(self, fileids=None, tagset=None)'), ((1672,), 0.6643432408176407, 'tag_sents(self, sentences)'), ((1673,), 0.6643432408176407, 'tag_sents(self, sentences)'), ((1675,), 0.6643432408176407, 'tag_sents(self, sentences)'), ((3351,), 0.6633871404883586, 'pos_tag(args)'), ((506,), 0.6463291877507367, 'chunks(self, fileids=None)'), ((31101,), 0.6186819856864461, 'tag_names(self, index=None)'), ((25740,), 0.6176366441653811, 'getTags(String word)'), ((616,), 0.5501793095394965, "eng')"), ((25852,), 0.5101567548946528, 'lemmatize(List<String> toks, List<String> tags)'), ((3335,), 0.5025398495409136, 'annotate(self, sent)')]
+
+************
+Query: is_HDN(text) Return True if text is a host domain name.
+
+*+++++++++++
+Expected: isValid(String name)
+
+++++++++++++
+Matches found:
+[((27688,), 0.8278101348984404, 'liberal_is_HDN(text)'), ((28344,), 0.6379836432960206, 'is_resource(self, name)'), ((3831,), 0.586451576035137, 'isValidSymbolicDomain(String domain)'), ((3700,), 0.5690639872683685, 'isValid(String domain)'), ((31592,), 0.5210945712811906, 'is_hop_by_hop(header_name)'), ((27687,), 0.5175420881119362, 'domain_match(A, B)'), ((30127,), 0.48823354106378397, "getfqdn(name=\\'\\')"), ((27689,), 0.4750451060116222, 'user_domain_match(A, B)'), ((15150,), 0.4335425530559914, 'isEmpty()'), ((25383,), 0.3712735331579202, 'isFlat()')]
+
+************
+Query: lemmas(self, lemma, pos=None, lang=u'eng') Return all Lemma objects with a name matching the specified lemma
+name and part of speech tag. Matches any part of speech tag if none is
+specified.
+
+*+++++++++++
+Expected: posTagger(Properties properties)
+
+++++++++++++
+Matches found:
+[((615,), 0.5578952561876144, "eng', check_exceptions=True)"), ((31101,), 0.5179811730360053, 'tag_names(self, index=None)'), ((3249,), 0.5173819605481121, "load_pos_model(lang=\\'en\\', version=\\'2\\')"), ((617,), 0.5055682440907423, "eng')"), ((30000,), 0.4836594765310365, 'global_matches(self, text)'), ((27332,), 0.4823181584927835, "get_body(self, preferencelist=(\\'related\\', \\'html\\', \\'plain\\'))"), ((27682,), 0.4806274585550464, 'unmatched(match)'), ((618,), 0.4801922293280466, 'all_synsets(self, pos=None)'), ((27779,), 0.4731261302257181, 'getwords(self)'), ((27826,), 0.4712085016110791, 'any(name, alternates)')]
+
+************
+Query: get_pos_tagger(lang=\'en\') Return a POS tagger from the models cache.
+
+*+++++++++++
+Expected: getAllPosTags()
+
+++++++++++++
+Matches found:
+[((3332,), 0.8716577783958168, "get_transfer_pos_tagger(lang=\\'en\\')"), ((3333,), 0.8421846335291253, "get_ner_tagger(lang=\\'en\\')"), ((25592,), 0.32775957923128674, 'getPosModel()')]
+
+************
+Query: triples(self, node=None) Extract dependency triples of the form:
+((head word, head tag), rel, (dep word, dep tag))
+
+*+++++++++++
+Expected: dependencies()
+
+++++++++++++
+Matches found:
+[((1686,), 0.545565920887171, 'classifier(self)'), ((25446,), 0.508576663342502, 'punctbo(Parse punct, int i)'), ((1714,), 0.475730491006302, 'expand(cls, starts, winlens, excludezero=False)')]
+
+************
+Query: containsAny(final CharSequence cs, final CharSequence... searchCharSequences) <p>Checks if the CharSequence contains any of the CharSequences in the given array.<p>
+  
+  <p>
+  A {@code null} {@code cs} CharSequence will return {@code false}. A {@code null} or zero
+  length search array will return {@code false}.
+  <p>
+  
+  <pre>
+  StringUtils.containsAny(null, ) = false
+  StringUtils.containsAny("", ) = false
+  StringUtils.containsAny(, null) = false
+  StringUtils.containsAny(, []) = false
+  StringUtils.containsAny("abcd", "ab", null) = true
+  StringUtils.containsAny("abcd", "ab", "cd") = true
+  StringUtils.containsAny("abc", "d", "abc") = true
+  <pre>
+  
+  
+  @param cs The CharSequence to check, may be null
+  @param searchCharSequences The array of CharSequences to search for, may be null.
+  Individual CharSequences may be null as well.
+  @return {@code true} if any of the search CharSequences are found, {@code false} otherwise
+  @since 3.4
+
+*+++++++++++
+Expected: contains(Pattern pattern)
+
+++++++++++++
+Matches found:
+[((6276,), 0.8923455381791835, 'containsAny(final CharSequence cs, final CharSequence searchChars)'), ((23856,), 0.8499772639765835, 'containsOnly(final CharSequence cs, final char... valid)'), ((23854,), 0.8225070193379589, 'indexOfAnyBut(final CharSequence cs, final char... searchChars)'), ((23849,), 0.8201209726321793, 'indexOfAny(final CharSequence cs, final char... searchChars)'), ((6281,), 0.8189169921253158, 'containsOnly(final CharSequence cs, final String validChars)'), ((6271,), 0.7955674797862324, 'contains(final CharSequence seq, final CharSequence searchSeq)'), ((23846,), 0.7919476305968305, 'contains(final CharSequence seq, final int searchChar)'), ((23860,), 0.7897679717708195, 'indexOfAny(final CharSequence str, final CharSequence... searchStrs)'), ((23858,), 0.7880414251980079, 'containsNone(final CharSequence cs, final char... searchChars)'), ((6279,), 0.7862867739482966, 'indexOfAnyBut(final CharSequence seq, final CharSequence searchChars)'), ((22040,), 0.780137453441997, 'containsAllWords(final CharSequence word, final CharSequence... words)'), ((6274,), 0.7734293172998871, 'indexOfAny(final CharSequence cs, final String searchChars)'), ((6285,), 0.7671738397949436, 'lastIndexOfAny(final CharSequence str, final CharSequence... searchStrs)'), ((6283,), 0.7653415893805822, 'containsNone(final CharSequence cs, final String invalidChars)'), ((6396,), 0.7434504000403485, 'isAllLowerCase(final CharSequence cs)'), ((6272,), 0.725729813384239, 'containsIgnoreCase(final CharSequence str, final CharSequence searchStr)'), ((6397,), 0.7196396589251881, 'isAllUpperCase(final CharSequence cs)'), ((6398,), 0.7183699891856206, 'isMixedCase(final CharSequence cs)'), ((20703,), 0.709901909487229, 'isAlpha(final CharSequence cs)'), ((6393,), 0.699041107656121, 'isAlphanumeric(final CharSequence cs)'), ((6394,), 0.6941462305455466, 'isAlphanumericSpace(final CharSequence cs)'), ((6254,), 0.6851757403099825, 'equalsAny(final CharSequence string, final CharSequence... searchStrings)'), ((6257,), 0.6841132582238977, 'indexOf(final CharSequence seq, final int searchChar, final int startPos)'), ((6392,), 0.6834299941274414, 'isAlphaSpace(final CharSequence cs)'), ((5703,), 0.6704219019744344, 'anyNotNull(final Object... values)'), ((4834,), 0.6694199729469739, 'contains(final boolean[] array, final boolean valueToFind)'), ((6255,), 0.6671450703429535, 'equalsAnyIgnoreCase(final CharSequence string, final CharSequence... searchStrings)'), ((6404,), 0.6660746759180617, 'defaultIfEmpty(final T str, final T defaultStr)'), ((4670,), 0.6639848008600178, 'indexOf(final CharSequence cs, final int searchChar, int start)'), ((6378,), 0.6570944910204876, 'length(final CharSequence cs)'), ((22245,), 0.6562606998577512, 'subSequence(final CharSequence cs, final int start)'), ((4789,), 0.6559748320875327, 'contains(final Object[] array, final Object objectToFind)'), ((6258,), 0.6510947948764867, 'indexOf(final CharSequence seq, final CharSequence searchSeq)'), ((6265,), 0.6413029542522788, 'lastIndexOf(final CharSequence seq, final CharSequence searchSeq)'), ((6256,), 0.6372472206757003, 'this.codePointAt(<i>k<i>)'), ((6395,), 0.6306697967875581, 'isWhitespace(final CharSequence cs)'), ((6259,), 0.6249244525151811, 'indexOf(final CharSequence seq, final CharSequence searchSeq, final int startPos)'), ((23821,), 0.6002909312766576, 'stripAll(final String... strs)'), ((5704,), 0.5988485068559916, 'allNotNull(final Object... values)'), ((6676,), 0.5783025073943164, 'isDigits(final String str)'), ((7263,), 0.5754846109610606, 'write(final CharSequence data, final Writer output)'), ((17333,), 0.5754846109610606, 'write(final CharSequence data, final Writer output)'), ((6677,), 0.5727570859252293, 'isNumber(final String str)'), ((6678,), 0.5727570859252293, 'isCreatable(final String str)'), ((4418,), 0.5552300926970468, 'append(final char[] lhs, final char[] rhs)'), ((23824,), 0.5535028946652674, 'equals(final CharSequence cs1, final CharSequence cs2)'), ((4345,), 0.5367944890833336, 'isFalse(final Boolean bool)'), ((25997,), 0.5354973260961221, 'probs()'), ((25663,), 0.5354973260961221, 'probs()'), ((4690,), 0.5345092391403063, 'clone(final boolean[] array)'), ((17335,), 0.5326640622407701, 'write(final CharSequence data, final OutputStream output, final Charset encoding)'), ((7265,), 0.5326640622407701, 'write(final CharSequence data, final OutputStream output, final Charset encoding)'), ((17336,), 0.5299228474413217, 'write(final CharSequence data, final OutputStream output, final String encoding)'), ((7266,), 0.5299228474413217, 'write(final CharSequence data, final OutputStream output, final String encoding)'), ((4419,), 0.5294048659987028, 'append(final byte[] lhs, final byte[] rhs)'), ((4420,), 0.5284674206148992, 'append(final double[] lhs, final double[] rhs)'), ((3536,), 0.5281980413862978, 'isEmpty()'), ((6728,), 0.5266469424119171, 'append(final CharSequence csq)'), ((7264,), 0.5261314562048703, 'write(final CharSequence data, final OutputStream output)'), ((17334,), 0.5261314562048703, 'write(final CharSequence data, final OutputStream output)'), ((15448,), 0.5231546358733721, 'size()'), ((17328,), 0.5204380251098177, 'write(final char[] data, final Writer output)'), ((7258,), 0.5204380251098177, 'write(final char[] data, final Writer output)'), ((7271,), 0.5204359655839269, 'write(final StringBuffer data, final Writer output)'), ((17341,), 0.5204359655839269, 'write(final StringBuffer data, final Writer output)'), ((4421,), 0.5201880311986864, 'append(final float[] lhs, final float[] rhs)'), ((4415,), 0.5180279582105057, 'append(final long[] lhs, final long[] rhs)'), ((4416,), 0.5168520170585927, 'append(final int[] lhs, final int[] rhs)'), ((6821,), 0.5165559565424533, 'copy(final String input, final Writer output)'), ((4422,), 0.515156253615066, 'append(final boolean[] lhs, final boolean[] rhs)'), ((7513,), 0.5139743828060007, 'write(final byte[] b, final int off, final int len)'), ((17583,), 0.5139743828060007, 'write(final byte[] b, final int off, final int len)'), ((7210,), 0.5089470824529839, 'toByteArray(final InputStream input, final int size)'), ((17280,), 0.5089470824529839, 'toByteArray(final InputStream input, final int size)'), ((25760,), 0.5083995127161223, 'probs(double[] probs)'), ((7267,), 0.5083917434776754, 'write(final String data, final Writer output)'), ((17337,), 0.5083917434776754, 'write(final String data, final Writer output)'), ((4417,), 0.5083384985673368, 'append(final short[] lhs, final short[] rhs)'), ((3968,), 0.5066299992336739, 'getValueAsString(Object bean, String property)'), ((7287,), 0.5017325131632402, 'copy(final Reader input, final Writer output)'), ((17357,), 0.5017325131632402, 'copy(final Reader input, final Writer output)'), ((25662,), 0.4990071594449766, 'probs(double[] probs)'), ((17343,), 0.4985776647490388, 'write(final StringBuffer data, final OutputStream output, final String encoding)'), ((7273,), 0.4985776647490388, 'write(final StringBuffer data, final OutputStream output, final String encoding)'), ((25996,), 0.49564252952904425, 'probs(double[] probs)'), ((3774,), 0.4903233753294517, 'isStrict()'), ((7262,), 0.4897572871841448, 'write(final char[] data, final OutputStream output, final String encoding)'), ((17332,), 0.4897572871841448, 'write(final char[] data, final OutputStream output, final String encoding)'), ((7272,), 0.48885413670714156, 'write(final StringBuffer data, final OutputStream output)'), ((17342,), 0.48885413670714156, 'write(final StringBuffer data, final OutputStream output)'), ((7260,), 0.48882623328592856, 'write(final char[] data, final OutputStream output)'), ((17330,), 0.48882623328592856, 'write(final char[] data, final OutputStream output)'), ((6820,), 0.4868782437646962, 'copy(final String input, final OutputStream output, final String encoding)'), ((7268,), 0.48115839762800056, 'write(final String data, final OutputStream output)'), ((17338,), 0.48115839762800056, 'write(final String data, final OutputStream output)'), ((17621,), 0.48008524534792274, 'peek(byte[] pBuffer)'), ((7551,), 0.48008524534792274, 'peek(byte[] pBuffer)'), ((12625,), 0.4710475843261685, 'value()')]
+
+************
+Query: escapeXml(final String input) Escapes the characters in a {@code String} using XML entities.<p>\n \n <p>For example: {@code "bread" & "butter"} =&gt;\n {@code &quot;bread&quot; &amp; &quot;butter&quot;}.\n <p>\n \n <p>Supports only the five basic XML entities (gt, lt, quot, amp, apos).\n Does not support DTDs or external entities.<p>\n \n <p>Note that Unicode characters greater than 0x7f are as of 3.0, no longer\n escaped. If you still wish this functionality, you can achieve it\n via the following:\n {@code StringEscapeUtils.ESCAPE_XML.with( NumericEntityEscaper.between(0x7f, Integer.MAX_VALUE) );}<p>\n \n @param input the {@code String} to escape, may be null\n @return a new escaped {@code String}, {@code null} if null string input\n @see #unescapeXml(java.lang.String)\n @deprecated use {@link #escapeXml10(java.lang.String)} or {@link #escapeXml11(java.lang.String)} instead.
+
+*+++++++++++
+Expected: xmlContentEscaper()
+
+++++++++++++
+Matches found:
+[((8629,), 0.7281868376054116, 'xmlAttributeEscaper()'), ((7832,), 0.7281868376054116, 'xmlAttributeEscaper()'), ((11094,), 0.7079660100147683, 'htmlEscaper()'), ((7815,), 0.7079660100147683, 'htmlEscaper()'), ((7831,), 0.691055130106512, 'xxxEscaper()'), ((8628,), 0.691055130106512, 'xxxEscaper()'), ((5478,), 0.6422553106931166, 'escapeJson(final String input)'), ((10832,), 0.5990389577483394, 'escape(String string)'), ((29996,), 0.5943676264161997, 'escape(pattern)'), ((27638,), 0.5875547026033523, 'escape(pathname)'), ((27676,), 0.5785438920985375, 'escape(s, quote=True)'), ((31703,), 0.5286207600545427, 'quoteattr(data, entities={})')]
+
+************
+Query: stem(self,token) Strip affixes from the token and return the stem.
+
+:param token: The token that should be stemmed.
+:type token: str
+
+*+++++++++++
+Expected: stem(String s)
+
+++++++++++++
+Matches found:
+[((1582,), 0.8307464842761128, 'stem(self, word)'), ((1591,), 0.808388783505848, 'stem(self, word)'), ((1597,), 0.7799897628783841, 'stem(self, word)'), ((1599,), 0.7799897628783841, 'stem(self, word)'), ((1587,), 0.7799897628783841, 'stem(self, word)'), ((1589,), 0.7799897628783841, 'stem(self, word)'), ((1592,), 0.7799897628783841, 'stem(self, word)'), ((1584,), 0.7799897628783841, 'stem(self, word)'), ((1586,), 0.7799897628783841, 'stem(self, word)'), ((1590,), 0.7799897628783841, 'stem(self, word)'), ((1593,), 0.7799897628783841, 'stem(self, word)'), ((1579,), 0.7748811949642304, 'stem(self, word)'), ((25716,), 0.46698113535790425, 'stem(CharSequence word)')]
+
+************
+Query: stem(self, token) Stemming a word token using the ISRI stemmer.
+
+*+++++++++++
+Expected: stem()
+
+++++++++++++
+Matches found:
+[((1551,), 0.8071107555013681, 'stem(self, word)'), ((1591,), 0.6469324172567849, 'stem(self, word)'), ((1582,), 0.6468972049871653, 'stem(self, word)'), ((1597,), 0.6254276617140732, 'stem(self, word)'), ((1599,), 0.6254276617140732, 'stem(self, word)'), ((1587,), 0.6254276617140732, 'stem(self, word)'), ((1589,), 0.6254276617140732, 'stem(self, word)'), ((1579,), 0.6254276617140732, 'stem(self, word)'), ((1592,), 0.6254276617140732, 'stem(self, word)'), ((1584,), 0.6254276617140732, 'stem(self, word)'), ((1586,), 0.6254276617140732, 'stem(self, word)'), ((1590,), 0.6254276617140732, 'stem(self, word)'), ((1593,), 0.6254276617140732, 'stem(self, word)'), ((280,), 0.5813624229866561, 'tagged_words(self, fileids=None, c5=False, strip_space=True, stem=False)')]
+
+************
+Query: tokenize(self, text, properties=None) Tokenize a string of text.
+
+>>> parser = CoreNLPParser(url='http://localhost:9000')
+
+>>> text = 'Good muffins cost $3.88\nin New York.  Please buy me\ntwo of them.\nThanks.'
+>>> list(parser.tokenize(text))
+['Good', 'muffins', 'cost', '$', '3.88', 'in', 'New', 'York', '.', 'Please', 'buy', 'me', 'two', 'of', 'them', '.', 'Thanks', '.']
+
+>>> s = "The colour of the wall is blue."
+>>> list(
+...     parser.tokenize(
+...         'The colour of the wall is blue.',
+...             properties={'tokenize.options': 'americanize=true'},
+...     )
+... )
+['The', 'color', 'of', 'the', 'wall', 'is', 'blue', '.']
+
+*+++++++++++
+Expected: tokenize(String sentence)
+
+++++++++++++
+Matches found:
+[((18534,), 0.45804729641651026, 'asTokenizer()'), ((31171,), 0.4252287643183363, 'generate_tokens(readline)')]
+
+************
+Query: is_ip(string) Checks if a string is a valid ip.
+
+:param string: String to check.
+:type string: str
+:return: True if an ip, false otherwise.
+:rtype: bool
+
+*+++++++++++
+Expected: _ip_int_from_string(cls, ip_str)
+
+++++++++++++
+Matches found:
+[((3833,), 0.7914826722970623, 'isValid(String inetAddress)'), ((3041,), 0.7222996532764325, 'is_url(string, allowed_schemes=None)'), ((3830,), 0.6758941684529971, 'isValidIpAddress(String ipAddress)'), ((3744,), 0.6671058503441996, 'isEmail(String value)'), ((3891,), 0.6499689302046494, 'isValid(String value)'), ((3827,), 0.6251274127593238, 'isValid(String email)'), ((3521,), 0.6251274127593238, 'isValid(String email)'), ((3836,), 0.6153773349048393, 'isValid(String value)'), ((3049,), 0.5942648214178303, 'is_palindrome(string, strict=True)'), ((3039,), 0.5836560097383154, 'is_string(obj)'), ((3834,), 0.5769855799856581, 'isValidInet4Address(String inet4Address)'), ((9,), 0.5736549174854502, 'mac_address(value)'), ((3042,), 0.5150310634285158, 'is_email(string)'), ((30108,), 0.4859652298325774, 'verify(self, address)')]
+
+************
+Query: wrap(final String str, int wrapLength, String newLineStr, final boolean wrapLongWords, String wrapOn) <p>Wraps a single line of text, identifying words by <code>wrapOn<code>.<p>
+  
+  <p>Leading spaces on a new line are stripped.
+  Trailing spaces are not stripped.<p>
+  
+  <table border="1">
+  <caption>Examples<caption>
+  <tr>
+  <th>input<th>
+  <th>wrapLength<th>
+  <th>newLineString<th>
+  <th>wrapLongWords<th>
+  <th>wrapOn<th>
+  <th>result<th>
+  <tr>
+  <tr>
+  <td>null<td>
+  <td><td>
+  <td><td>
+  <td>truefalse<td>
+  <td><td>
+  <td>null<td>
+  <tr>
+  <tr>
+  <td>""<td>
+  <td><td>
+  <td><td>
+  <td>truefalse<td>
+  <td><td>
+  <td>""<td>
+  <tr>
+  <tr>
+  <td>"Here is one line of text that is going to be wrapped after 20 columns."<td>
+  <td>20<td>
+  <td>"\n"<td>
+  <td>truefalse<td>
+  <td>" "<td>
+  <td>"Here is one line of\ntext that is going\nto be wrapped after\n20 columns."<td>
+  <tr>
+  <tr>
+  <td>"Here is one line of text that is going to be wrapped after 20 columns."<td>
+  <td>20<td>
+  <td>"&lt;br &gt;"<td>
+  <td>truefalse<td>
+  <td>" "<td>
+  <td>"Here is one line of&lt;br &gt;text that is going&lt;br &gt;to be wrapped after&lt;br &gt;20 columns."<td>
+  <tr>
+  <tr>
+  <td>"Here is one line of text that is going to be wrapped after 20 columns."<td>
+  <td>20<td>
+  <td>null<td>
+  <td>truefalse<td>
+  <td>" "<td>
+  <td>"Here is one line of" + systemNewLine + "text that is going" + systemNewLine + "to be wrapped after" + systemNewLine + "20 columns."<td>
+  <tr>
+  <tr>
+  <td>"Click here to jump to the commons website - http:commons.apache.org"<td>
+  <td>20<td>
+  <td>"\n"<td>
+  <td>false<td>
+  <td>" "<td>
+  <td>"Click here to jump\nto the commons\nwebsite -\nhttp:commons.apache.org"<td>
+  <tr>
+  <tr>
+  <td>"Click here to jump to the commons website - http:commons.apache.org"<td>
+  <td>20<td>
+  <td>"\n"<td>
+  <td>true<td>
+  <td>" "<td>
+  <td>"Click here to jump\nto the commons\nwebsite -\nhttp:commons.apach\ne.org"<td>
+  <tr>
+  <tr>
+  <td>"flammableinflammable"<td>
+  <td>20<td>
+  <td>"\n"<td>
+  <td>true<td>
+  <td>""<td>
+  <td>"flammable\ninflammable"<td>
+  <tr>
+  <table>
+  @param str the String to be word wrapped, may be null
+  @param wrapLength the column to wrap the words at, less than 1 is treated as 1
+  @param newLineStr the string to insert for a new line,
+  <code>null<code> uses the system property line separator
+  @param wrapLongWords true if long words (such as URLs) should be wrapped
+  @param wrapOn regex expression to be used as a breakable characters,
+  if blank string is provided a space character will be used
+  @return a line with newlines inserted, <code>null<code> if null input
+
+*+++++++++++
+Expected: wrap(text, width=70, **kwargs)
+
+++++++++++++
+Matches found:
+FOUND!
+[((4452,), 0.9264869880850798, 'wrap(final String str, final int wrapLength)'), ((30435,), 0.7098972511132953, 'wrap(text, width=70, **kwargs)'), ((30445,), 0.6839378182844356, 'wrap(self, text)'), ((22033,), 0.5568712507544371, 'capitalizeFully(final String str)'), ((4458,), 0.5496638844859962, 'capitalizeFully(String str, final char... delimiters)'), ((22035,), 0.5433667553017525, 'uncapitalize(final String str)'), ((30436,), 0.5352367802729209, 'fill(text, width=70, **kwargs)'), ((3074,), 0.5276329118837506, 'tokens(self)'), ((30438,), 0.5257748839840483, 'dedent(text)'), ((4456,), 0.5035108653888479, 'capitalize(final String str, final char... delimiters)'), ((22031,), 0.5029732511456982, 'capitalize(final String str)'), ((25861,), 0.49864085717454054, 'isWhitespace(char charCode)'), ((6428,), 0.48921159106842427, 'normalizeSpace(final String str)'), ((30263,), 0.4880395019474238, 'capwords(s, sep=None)')]
+
+************
+Query: count(final String str, final String... set) <p>Takes an argument in set-syntax, see evaluateSet,
+and returns the number of characters present in the specified string.<p>
+
+<pre>
+CharSetUtils.count(null, ) = 0
+CharSetUtils.count("", ) = 0
+CharSetUtils.count(, null) = 0
+CharSetUtils.count(, "") = 0
+CharSetUtils.count("hello", "k-p") = 3
+CharSetUtils.count("hello", "a-e") = 1
+<pre>
+
+@see CharSet#getInstance(java.lang.String...) for set-syntax.
+@param str String to count characters in, may be null
+@param set String[] set of characters to count, may be null
+@return the character count, zero if null string input
+
+*+++++++++++
+Expected: countIn(CharSequence sequence)
+
+++++++++++++
+Matches found:
+[((4539,), 0.736541644104444, 'containsAny(final String str, final String... set)'), ((4541,), 0.7284618643285161, 'CharSet#getInstance(java.lang.String...)'), ((4542,), 0.7282593705511128, 'CharSet#getInstance(java.lang.String...)'), ((3842,), 0.5453533938361856, 'countToken(String token, String target)'), ((3897,), 0.5453533938361856, 'countToken(String token, String target)'), ((3053,), 0.5292935422029357, 'words_count(string)'), ((8551,), 0.5024126115376312, 'values()'), ((10900,), 0.5024126115376312, 'values()'), ((31329,), 0.4849032407880216, 'pencolor(self, *args)'), ((31330,), 0.4849032407880216, 'fillcolor(self, *args)'), ((30590,), 0.4745226358316599, 'lookup(self, style, option, state=None, default=None)'), ((8638,), 0.47259450857198915, 'abstract ContiguousSet<C> intersection(ContiguousSet<C> other)'), ((27279,), 0.4724271806100238, "encode(self, splitchars=\\';, \\\\t\\', maxlinelen=None, linesep=\\'\\\\n\\')")]
+
+************
+Query: get_host(url)  Deprecated. Use :func:`parse_url` instead.
+
+*+++++++++++
+Expected: isUrl(String value)
+
+++++++++++++
+Matches found:
+[((28829,), 0.4822098273413945, 'format(percent, value, grouping=False, monetary=False, *additional)'), ((26081,), 0.3168119514185418, 'host(self, value)')]
+
+************
+Query: url(self) Convert self into a url\n\n        This function should more or less round-trip with :func:`.parse_url`. The\n        returned url may not be exactly the same as the url inputted to\n        :func:`.parse_url`, but it should be equivalent by the RFC (e.g., urls\n        with a blank port will have : removed).\n\n        Example: ::\n\n            >>> U = parse_url('http://google.com/mail/')\n            >>> U.url\n            'http://google.com/mail/'\n            >>> Url('http', 'username:password', 'host.com', 80,\n            ... '/path', 'query', 'fragment').url\n            'http://username:password@host.com:80/path?query#fragment
+
+*+++++++++++
+Expected: isUrl(String value)
+
+++++++++++++
+Matches found:
+FOUND!
+[((34461,), 0.5639636433127712, 'parse_url(url)'), ((3041,), 0.46359236947923566, 'is_url(string, allowed_schemes=None)'), ((26015,), 0.4513102664909966, 'connection_from_url(url, **kw)'), ((31485,), 0.4349815410109663, 'set_url(self, url)'), ((26072,), 0.42662435182240865, 'connection_from_url(self, url, pool_kwargs=None)'), ((3745,), 0.40757303966973396, 'isUrl(String value)'), ((26094,), 0.4026152029560373, 'request_encode_url(self, method, url, fields=None, headers=None, **\\n urlopen_kw)'), ((17309,), 0.39648556417128833, 'resourceToURL(final String name, final ClassLoader classLoader)'), ((7239,), 0.39648556417128833, 'resourceToURL(final String name, final ClassLoader classLoader)'), ((7344,), 0.39626288654043307, 'decodeUrl(final String url)'), ((17414,), 0.39626288654043307, 'decodeUrl(final String url)'), ((17416,), 0.34967923718025895, 'toURLs(final File[] files)'), ((7346,), 0.34967923718025895, 'toURLs(final File[] files)')]
+
+************
+Query: parse_url(url) Given a url, return a parsed :class:`.Url` namedtuple. Best-effort is\n    performed to parse incomplete urls. Fields not provided will be None.\n    This parser is RFC 3986 compliant.\n\n    :param str url: URL to parse into a :class:`.Url` namedtuple.\n\n    Partly backwards-compatible with :mod:`urlparse`.\n\n    Example::\n\n        >>> parse_url('http://google.com/mail/')\n        Url(scheme='http', host='google.com', port=None, path='/mail/', ...)\n        >>> parse_url('google.com:80')\n        Url(scheme=None, host='google.com', port=80, path=None, ...)\n        >>> parse_url('/foo?bar')\n        Url(scheme=None, host=None, port=None, path='/foo', query='bar', ...)
+
+*+++++++++++
+Expected: isUrl(String value)
+
+++++++++++++
+Matches found:
+[((12398,), 0.5426350884807021, 'slurpURL(String path)'), ((34466,), 0.5072409042861459, 'url(self)'), ((0,), 0.48304539310827294, 'url(value, public=False)'), ((31680,), 0.39057176153089507, 'parse(self, source)'), ((25682,), 0.38508122625951036, 'parse(String number, String languageCode)'), ((31662,), 0.38397691687336316, 'parse(self, source, parser=None)'), ((1168,), 0.3706372037789637, 'parse(self, tokens)'), ((1146,), 0.3571881362352858, 'parse(self, tokens)'), ((31636,), 0.3487403284897363, 'parse(source, parser=None)'), ((25737,), 0.34050560476908975, 'parse(Parse tokens)'), ((25736,), 0.3372976969159545, 'parse(Parse tokens, int numParses)'), ((31423,), 0.30977221506424635, "parse_qsl(qs, keep_blank_values=False, strict_parsing=False, encoding=\\n \\'utf-8\\', errors=\\'replace\\', max_num_fields=None)"), ((27347,), 0.3054177626748058, 'parse(self, fp, headersonly=False)'), ((5263,), 0.30428153984812323, 'parse(final String source, final ParsePosition pos)'), ((27344,), 0.30393381868562985, 'parse(self, fp, headersonly=False)')]
+
+************
+Query: url(value, public=False) Return whether or not given value is a valid URL.
+
+If the value is valid URL this function returns ``True``, otherwise
+:class:`~validators.utils.ValidationFailure`.
+
+This validator is based on the wonderful `URL validator of dperini`_.
+
+.. _URL validator of dperini:
+    https://gist.github.com/dperini/729294
+
+Examples::
+
+    >>> url('http://foobar.dk')
+    True
+
+    >>> url('ftp://foobar.dk')
+    True
+
+    >>> url('http://10.0.0.1')
+    True
+
+    >>> url('http://foobar.d')
+    ValidationFailure(func=url, ...)
+
+    >>> url('http://10.0.0.1', public=True)
+    ValidationFailure(func=url, ...)
+
+.. versionadded:: 0.2
+
+.. versionchanged:: 0.10.2
+
+    Added support for various exotic URLs and fixed various false
+    positives.
+
+.. versionchanged:: 0.10.3
+
+    Added ``public`` parameter.
+
+.. versionchanged:: 0.11.0
+
+    Made the regular expression this function uses case insensitive.
+
+.. versionchanged:: 0.11.3
+
+    Added support for URLs containing localhost
+
+:param value: URL address string to validate
+:param public: (default=False) Set True to only allow a public IP address
+
+*+++++++++++
+Expected: isUrl(String value)
+
+++++++++++++
+Matches found:
+FOUND!
+[((3745,), 0.6844255461030806, 'isUrl(String value)'), ((3041,), 0.6503690340445507, 'is_url(string, allowed_schemes=None)'), ((7,), 0.6323816641991785, 'domain(value)'), ((19,), 0.6300714512962083, 'iban(value)'), ((22,), 0.622074828483128, 'uuid(value)'), ((8,), 0.5884666981574022, 'email(value, whitelist=None)'), ((9,), 0.582886359772434, 'mac_address(value)'), ((4222,), 0.5662912320156674, 'validateRange(final int startIndex, int endIndex)'), ((4223,), 0.5662515940714645, 'validateIndex(final int index)'), ((3460,), 0.5397536904812068, 'getOnlyReturnErrors()'), ((3834,), 0.5345626498037106, 'isValidInet4Address(String inet4Address)'), ((3835,), 0.5345626498037106, 'isValidInet6Address(String inet6Address)'), ((3831,), 0.5178971374215702, 'isValidSymbolicDomain(String domain)'), ((3815,), 0.5138828922307562, 'executeValidationMethod(Field field, both ValidatorAction and Validator are added as parameters\\n Map<String, Object> params, ValidatorResults results, int pos)'), ((3893,), 0.5082286949651321, 'isValidAuthority(String authority)'), ((3891,), 0.5033879486883984, 'isValid(String value)'), ((3,), 0.4993726125753435, 'slug(value)'), ((3830,), 0.4991818506224705, 'isValidIpAddress(String ipAddress)'), ((30610,), 0.49768417975957263, 'validate(self)'), ((3461,), 0.48903001008890395, 'setOnlyReturnErrors(boolean onlyReturnErrors)'), ((5908,), 0.478041787911954, 'validState(final boolean expression, final String message, final Object... values)'), ((3946,), 0.4777414460716874, 'getResult(String validatorName)'), ((5882,), 0.4752527253055027, 'isTrue(final boolean expression, final String message, final double value)')]
+
+************
+Query: ipv6(value) Return whether or not given value is a valid IP version 6 address
+(including IPv4-mapped IPv6 addresses).
+
+This validator is based on `WTForms IPAddress validator`_.
+
+.. _WTForms IPAddress validator:
+   https://github.com/wtforms/wtforms/blob/master/wtforms/validators.py
+
+Examples::
+
+    >>> ipv6('abcd:ef::42:1')
+    True
+
+    >>> ipv6('::ffff:192.0.2.128')
+    True
+
+    >>> ipv6('::192.0.2.128')
+    True
+
+    >>> ipv6('abc.0.0.1')
+    ValidationFailure(func=ipv6, args={'value': 'abc.0.0.1'})
+
+.. versionadded:: 0.2
+
+:param value: IP address string to validate
+
+*+++++++++++
+Expected: isIPv6Address(final String inet6Address)
+
+++++++++++++
+Matches found:
+[((9,), 0.6427787955856631, 'mac_address(value)'), ((3830,), 0.6182140089051336, 'isValidIpAddress(String ipAddress)'), ((3834,), 0.6120907882918288, 'isValidInet4Address(String inet4Address)'), ((3835,), 0.6097070085878553, 'isValidInet6Address(String inet6Address)'), ((8,), 0.5270624445292843, 'email(value, whitelist=None)'), ((0,), 0.5026947943725012, 'url(value, public=False)')]
+
+************
+Query: is_ip(string) Checks if a string is a valid ip.
+
+:param string: String to check.
+:type string: str
+:return: True if an ip, false otherwise.
+:rtype: bool
+
+*+++++++++++
+Expected: ipv4(value)
+
+++++++++++++
+Matches found:
+[((3833,), 0.7914826722970623, 'isValid(String inetAddress)'), ((3041,), 0.7222996532764325, 'is_url(string, allowed_schemes=None)'), ((3830,), 0.6758941684529971, 'isValidIpAddress(String ipAddress)'), ((3744,), 0.6671058503441996, 'isEmail(String value)'), ((3891,), 0.6499689302046494, 'isValid(String value)'), ((3827,), 0.6251274127593238, 'isValid(String email)'), ((3521,), 0.6251274127593238, 'isValid(String email)'), ((3836,), 0.6153773349048393, 'isValid(String value)'), ((3049,), 0.5942648214178303, 'is_palindrome(string, strict=True)'), ((3039,), 0.5836560097383154, 'is_string(obj)'), ((3834,), 0.5769855799856581, 'isValidInet4Address(String inet4Address)'), ((9,), 0.5736549174854502, 'mac_address(value)'), ((3042,), 0.5150310634285158, 'is_email(string)'), ((30108,), 0.4859652298325774, 'verify(self, address)')]
+
+************
+Query: is_ip(string) Checks if a string is a valid ip.
+
+:param string: String to check.
+:type string: str
+:return: True if an ip, false otherwise.
+:rtype: bool
+
+*+++++++++++
+Expected: isInetAddress(String ipString)
+
+++++++++++++
+Matches found:
+[((3833,), 0.7914826722970623, 'isValid(String inetAddress)'), ((3041,), 0.7222996532764325, 'is_url(string, allowed_schemes=None)'), ((3830,), 0.6758941684529971, 'isValidIpAddress(String ipAddress)'), ((3744,), 0.6671058503441996, 'isEmail(String value)'), ((3891,), 0.6499689302046494, 'isValid(String value)'), ((3827,), 0.6251274127593238, 'isValid(String email)'), ((3521,), 0.6251274127593238, 'isValid(String email)'), ((3836,), 0.6153773349048393, 'isValid(String value)'), ((3049,), 0.5942648214178303, 'is_palindrome(string, strict=True)'), ((3039,), 0.5836560097383154, 'is_string(obj)'), ((3834,), 0.5769855799856581, 'isValidInet4Address(String inet4Address)'), ((9,), 0.5736549174854502, 'mac_address(value)'), ((3042,), 0.5150310634285158, 'is_email(string)'), ((30108,), 0.4859652298325774, 'verify(self, address)')]
+
+************
+Query: is_email(string) Check if a string is an email.
+
+| **IMPORTANT NOTES**:
+| By design, the implementation of this checking does not follow the specification for a valid     email address, but instead it's based on real world cases in order to match more than 99%     of emails and catch user mistakes. For example the percentage sign "%" is a valid sign for an email,     but actually no one use it, instead if such sign is found in a string coming from user input (like a     web form) is very likely that the intention was to type "5" (which is on the same key on a US keyboard).
+
+| You can take a look at "**IsEmailTestCase**" in tests.py for further details.
+
+
+:param string: String to check.
+:type string: str
+:return: True if email, false otherwise.
+:rtype: bool
+
+*+++++++++++
+Expected: email(value, whitelist=None)
+
+++++++++++++
+Matches found:
+FOUND!
+[((8,), 0.49469342072717193, 'email(value, whitelist=None)')]
+
+************
+Query: is_slug(string, sign=\'-\') Checks if a given string is a slug.
+
+:param string: String to check.
+:type string: str
+:param sign: Join sign used by the slug.
+:type sign: str
+:return: True if slug, false otherwise.
+
+*+++++++++++
+Expected: slug(value)
+
+++++++++++++
+Matches found:
+FOUND!
+[((3050,), 0.5638500609442807, 'is_pangram(string)'), ((3049,), 0.5638500609442807, 'is_palindrome(string, strict=True)'), ((3051,), 0.5638500609442807, 'is_isogram(string)'), ((3,), 0.528132453277148, 'slug(value)'), ((6442,), 0.5228184934156316, 'unwrap(final String str, final String wrapToken)'), ((4196,), 0.49503339864657286, 'contains(final String str)')]
+
+************
+Query: domain(value) Return whether or not given value is a valid domain.
+
+If the value is valid domain name this function returns ``True``, otherwise
+:class:`~validators.utils.ValidationFailure`.
+
+Examples::
+
+    >>> domain('example.com')
+    True
+
+    >>> domain('example.com/')
+    ValidationFailure(func=domain, ...)
+
+
+Supports IDN domains as well::
+
+    >>> domain('xn----gtbspbbmkef.xn--p1ai')
+    True
+
+.. versionadded:: 0.9
+
+.. versionchanged:: 0.10
+
+    Added support for internationalized domain name (IDN) validation.
+
+:param value: domain string to validate
+
+*+++++++++++
+Expected: isValidSymbolicDomain(String domain)
+
+++++++++++++
+Matches found:
+FOUND!
+[((3831,), 0.7506020117772072, 'isValidSymbolicDomain(String domain)'), ((19,), 0.7237540040331946, 'iban(value)'), ((22,), 0.6654724949444518, 'uuid(value)'), ((0,), 0.6323817119284635, 'url(value, public=False)'), ((3460,), 0.6032259382111185, 'getOnlyReturnErrors()'), ((8,), 0.5881794859932788, 'email(value, whitelist=None)'), ((13,), 0.5804252942517601, 'sha1(value)'), ((15,), 0.5804252942517601, 'sha256(value)'), ((16,), 0.5804252942517601, 'sha512(value)'), ((14,), 0.5804252942517601, 'sha224(value)'), ((3830,), 0.5754798971313531, 'isValidIpAddress(String ipAddress)'), ((12,), 0.5585086294811898, 'md5(value)'), ((3834,), 0.5499529213883242, 'isValidInet4Address(String inet4Address)'), ((3835,), 0.5499529213883242, 'isValidInet6Address(String inet6Address)'), ((3815,), 0.5366577515513954, 'executeValidationMethod(Field field, both ValidatorAction and Validator are added as parameters\\n Map<String, Object> params, ValidatorResults results, int pos)'), ((3461,), 0.5343168427494608, 'setOnlyReturnErrors(boolean onlyReturnErrors)'), ((9112,), 0.5267065225951574, 'isValid(String name)'), ((10387,), 0.5267065225951574, 'isValid(String name)'), ((11,), 0.5200574997996825, 'validator(func, *args, **kwargs)'), ((3893,), 0.510516335407693, 'isValidAuthority(String authority)'), ((28130,), 0.507794049745825, 'entry_ok(self)'), ((3996,), 0.4873078742793124, 'isValid(String input)'), ((30610,), 0.48313496236708575, 'validate(self)'), ((27705,), 0.43702327197163265, 'allowed_domains(self)')]
+
+************
+Query: email(value, whitelist=None) Validate an email address.
+
+This validator is based on `Django's email validator`_. Returns
+``True`` on success and :class:`~validators.utils.ValidationFailure`
+when validation fails.
+
+Examples::
+
+>>> email('someone@example.com')
+True
+
+>>> email('bogus@@')
+ValidationFailure(func=email, ...)
+
+.. _Django's email validator:
+https://github.com/django/django/blob/master/django/core/validators.py
+
+.. versionadded:: 0.1
+
+:param value: value to validate
+:param whitelist: domain names to whitelist
+
+:copyright: (c) Django Software Foundation and individual contributors.
+:license: BSD
+
+*+++++++++++
+Expected: isValid(String email)
+
+++++++++++++
+Matches found:
+FOUND!
+FOUND!
+[((3830,), 0.6957249735816267, 'isValidIpAddress(String ipAddress)'), ((9,), 0.6896397727393914, 'mac_address(value)'), ((3834,), 0.6197105690632234, 'isValidInet4Address(String inet4Address)'), ((3835,), 0.6197105690632234, 'isValidInet6Address(String inet6Address)'), ((3744,), 0.6116163568727018, 'isEmail(String value)'), ((4222,), 0.6113572751646655, 'validateRange(final int startIndex, int endIndex)'), ((4223,), 0.6112734444475021, 'validateIndex(final int index)'), ((22,), 0.6007925860068674, 'uuid(value)'), ((0,), 0.5884666994325056, 'url(value, public=False)'), ((7,), 0.5881794859932788, 'domain(value)'), ((19,), 0.5829626814045202, 'iban(value)'), ((3460,), 0.5717566729679805, 'getOnlyReturnErrors()'), ((3831,), 0.5494086346674795, 'isValidSymbolicDomain(String domain)'), ((3815,), 0.547647649553048, 'executeValidationMethod(Field field, both ValidatorAction and Validator are added as parameters\\n Map<String, Object> params, ValidatorResults results, int pos)'), ((5908,), 0.5187493267253547, 'validState(final boolean expression, final String message, final Object... values)'), ((5882,), 0.5138115259510223, 'isTrue(final boolean expression, final String message, final double value)'), ((30610,), 0.5068566508162029, 'validate(self)'), ((3745,), 0.5065473729950062, 'isUrl(String value)'), ((5907,), 0.5004396397196484, 'validState(final boolean expression)'), ((3891,), 0.4967303037151023, 'isValid(String value)'), ((5884,), 0.4953816155234487, 'isTrue(final boolean expression)'), ((3042,), 0.49469342072717193, 'is_email(string)'), ((3893,), 0.48892044885361324, 'isValidAuthority(String authority)'), ((3828,), 0.483196374795103, 'isValidDomain(String domain)'), ((3461,), 0.47866232946007514, 'setOnlyReturnErrors(boolean onlyReturnErrors)'), ((3827,), 0.47557366995807104, 'isValid(String email)'), ((3521,), 0.47557366995807104, 'isValid(String email)')]
+
+************
+Query: is_email(string) Check if a string is an email.
+
+| **IMPORTANT NOTES**:
+| By design, the implementation of this checking does not follow the specification for a valid email address, but instead it's based on real world cases in order to match more than 99% of emails and catch user mistakes. For example the percentage sign "%" is a valid sign for an email, but actually no one use it, instead if such sign is found in a string coming from user input (like a web form) is very likely that the intention was to type "5" (which is on the same key on a US keyboard).
+
+| You can take a look at "**IsEmailTestCase**" in tests.py for further details.
+
+
+:param string: String to check.
+:type string: str
+:return: True if email, false otherwise.
+:rtype: bool
+
+*+++++++++++
+Expected: isValid(String email)
+
+++++++++++++
+Matches found:
+[((8,), 0.49469342072717193, 'email(value, whitelist=None)')]
+
+************
+Query: is_json(string) Check if a string is a valid json.
+
+:param string: String to check.
+:type string: str
+:return: True if json, false otherwise
+:rtype: bool
+
+*+++++++++++
+Expected: py_scanstring(s, end, strict=True, _b=BACKSLASH, _m=STRINGCHUNK.match)
+
+++++++++++++
+Matches found:
+[((3041,), 0.7222996532764325, 'is_url(string, allowed_schemes=None)'), ((3049,), 0.5942648214178303, 'is_palindrome(string, strict=True)'), ((3833,), 0.5857264177229962, 'isValid(String inetAddress)'), ((3039,), 0.5836560097383154, 'is_string(obj)'), ((3891,), 0.578977928675589, 'isValid(String value)'), ((4067,), 0.4222255014807294, 'isIA64()'), ((4068,), 0.37864864547596044, 'isPPC()'), ((3309,), 0.2902290570190166, 'json(self)')]

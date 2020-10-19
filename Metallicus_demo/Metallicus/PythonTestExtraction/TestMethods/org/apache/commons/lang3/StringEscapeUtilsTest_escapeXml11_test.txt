@@ -1,0 +1,11 @@
+[[[;#a<b>c"d'e&f;#,'arg0','java_java.lang.String'],[;#a&lt;b&gt;c&quot;d&apos;e&amp;f;#,'arg1','java_java.lang.String'],[;#a&lt;b&gt;c&quot;d&apos;e&amp;f;#,'arg0','java_java.lang.String'],[;#a&lt;b&gt;c&quot;d&apos;e&amp;f;#,'EXP_op','java_java.lang.String']], [[;#a	b
+c
+d;#,'arg0','java_java.lang.String'],[;#a	b
+c
+d;#,'arg2','java_java.lang.String'],[;#a	b
+c
+d;#,'arg1','java_java.lang.String'],[;#XML 1.1 should not escape 	 
+ 
+;#,'arg0','java_java.lang.String'],[;#a	b
+c
+d;#,'EXP_op','java_java.lang.String']], [[;#a\u0000b;#,'arg0','java_java.lang.String'],[;#a\u0000b;#,'arg2','java_java.lang.String'],[;#ab;#,'arg1','java_java.lang.String'],[;#XML 1.1 should omit #x0;#,'arg0','java_java.lang.String'],[;#ab;#,'EXP_op','java_java.lang.String']], [[;#a\u0001\u0008\u000b\u000e\u001fb;#,'arg0','java_java.lang.String'],[;#a\u0001\u0008\u000b&#12;\u000e\u001fb;#,'arg2','java_java.lang.String'],[;#a&#1;&#8;&#11;&#12;&#14;&#31;b;#,'arg1','java_java.lang.String'],[;#XML 1.1 should escape #x1-x8 | #xb | #xc | #xe-#x19;#,'arg0','java_java.lang.String'],[;#a&#1;&#8;&#11;&#12;&#14;&#31;b;#,'EXP_op','java_java.lang.String']], [[;#a~\u007f\u0084\u0085\u0086\u009f\u00a0b;#,'arg0','java_java.lang.String'],[;#a~\u007f\u0084\u0085\u0086\u009f\u00a0b;#,'arg2','java_java.lang.String'],[;#a~&#127;&#132;\u0085&#134;&#159;\u00a0b;#,'arg1','java_java.lang.String'],[;#XML 1.1 should escape #x7F-#x84 | #x86-#x9F;#,'arg0','java_java.lang.String'],[;#a~&#127;&#132;\u0085&#134;&#159;\u00a0b;#,'EXP_op','java_java.lang.String']], [[;#a\ud7ff\ud800 \udfff \ue000b;#,'arg0','java_java.lang.String'],[;#a\ud7ff\ud800 \udfff \ue000b;#,'arg2','java_java.lang.String'],[;#a\ud7ff  \ue000b;#,'arg1','java_java.lang.String'],[;#XML 1.1 should omit #xd800-#xdfff;#,'arg0','java_java.lang.String'],[;#a\ud7ff  \ue000b;#,'EXP_op','java_java.lang.String']], [[;#a\ufffd\ufffe\uffffb;#,'arg0','java_java.lang.String'],[;#a\ufffd\ufffe\uffffb;#,'arg2','java_java.lang.String'],[;#a\ufffdb;#,'arg1','java_java.lang.String'],[;#XML 1.1 should omit #xfffe | #xffff;#,'arg0','java_java.lang.String'],[;#a\ufffdb;#,'EXP_op','java_java.lang.String']]]

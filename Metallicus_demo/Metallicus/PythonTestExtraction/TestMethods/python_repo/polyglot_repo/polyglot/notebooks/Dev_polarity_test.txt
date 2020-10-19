@@ -1,0 +1,1 @@
+[[[;#Beautiful is better than ugly.;#,'sent','python_String'],[;#0.0;#,'EXP_op','python_Float']], [[;#Explicit is better than implicit.;#,'sent','python_String'],[;#1.0;#,'EXP_op','python_Float']], [[;#Simple is better than complex.;#,'sent','python_String'],[;#0.0;#,'EXP_op','python_Float']]]

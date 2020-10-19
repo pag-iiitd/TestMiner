@@ -1,0 +1,1 @@
+[[['1.0', 'index', 'python_str'], ['(1, 0)', 'EXP_op', 'python_tuple']], [['1.11', 'index', 'python_str'], ['(1, 11)', 'EXP_op', 'python_tuple']]]

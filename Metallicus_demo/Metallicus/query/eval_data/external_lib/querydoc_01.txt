@@ -1,0 +1,5 @@
+areAnagram(String firstWord, String secondWord)
+Checks if two words are an anagram of each other
+@param firstWord the first word to be examined
+@param secondWord the second word to be examined
+@return true if the string {@code firstWord} is an anagram of {@code secondWord}, false otherwise

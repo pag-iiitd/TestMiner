@@ -1,0 +1,31 @@
+[[[;#null;#,'str','java_null_type'],[;#null;#,'arg1','java_java.lang.String'],[;#20;#,'wrapLength','java_int'],[;#null;#,'arg0','java_null_type'],[;#null;#,'EXP_op','java_null_type']], [[;#null;#,'arg0','java_null_type'],[;#null;#,'str','java_null_type'],[;#null;#,'arg1','java_java.lang.String'],[;#-1;#,'wrapLength','java_int'],[;#null;#,'arg0','java_null_type'],[;#null;#,'EXP_op','java_null_type']], [[;#;#,'arg1','java_java.lang.String'],[;#20;#,'wrapLength','java_int'],[;#;#,'str','java_java.lang.String'],[;#;#,'arg0','java_java.lang.String'],[;#;#,'EXP_op','java_java.lang.String']], [[;#;#,'arg1','java_java.lang.String'],[;#;#,'arg0','java_java.lang.String'],[;#-1;#,'wrapLength','java_int'],[;#;#,'str','java_java.lang.String'],[;#;#,'arg0','java_java.lang.String'],[;#;#,'EXP_op','java_java.lang.String']], [[;#Here is one line of text that is going to be wrapped after 20 columns.;#,'str','java_java.lang.String'],[;#Here is one line of
+text that is going
+to be wrapped after
+20 columns.;#,'arg1','java_java.lang.String'],[;#20;#,'wrapLength','java_int'],[;#Here is one line of;#,'arg0','java_java.lang.String'],[;#to be wrapped after;#,'arg0','java_java.lang.String'],[;#text that is going;#,'arg0','java_java.lang.String'],[;#line.separator;#,'arg0','java_java.lang.String'],[;#
+;#,'arg0','java_java.lang.String'],[;#20 columns.;#,'arg0','java_java.lang.String'],[;#Here is one line of
+text that is going
+to be wrapped after
+20 columns.;#,'arg0','java_java.lang.String'],[;#Here is one line of
+text that is going
+to be wrapped after
+20 columns.;#,'EXP_op','java_java.lang.String']], [[;#Click here to jump to the commons website - http://commons.apache.org;#,'str','java_java.lang.String'],[;#Click here to jump
+to the commons
+website -
+http://commons.apache.org;#,'arg1','java_java.lang.String'],[;#20;#,'wrapLength','java_int'],[;#http://commons.apache.org;#,'arg0','java_java.lang.String'],[;#Click here to jump;#,'arg0','java_java.lang.String'],[;#to the commons;#,'arg0','java_java.lang.String'],[;#line.separator;#,'arg0','java_java.lang.String'],[;#
+;#,'arg0','java_java.lang.String'],[;#website -;#,'arg0','java_java.lang.String'],[;#Click here to jump
+to the commons
+website -
+http://commons.apache.org;#,'arg0','java_java.lang.String'],[;#Click here to jump
+to the commons
+website -
+http://commons.apache.org;#,'EXP_op','java_java.lang.String']], [[;#Click here, http://commons.apache.org, to jump to the commons website;#,'str','java_java.lang.String'],[;#Click here,
+http://commons.apache.org,
+to jump to the
+commons website;#,'arg1','java_java.lang.String'],[;#20;#,'wrapLength','java_int'],[;#http://commons.apache.org,;#,'arg0','java_java.lang.String'],[;#commons website;#,'arg0','java_java.lang.String'],[;#to jump to the;#,'arg0','java_java.lang.String'],[;#line.separator;#,'arg0','java_java.lang.String'],[;#Click here,;#,'arg0','java_java.lang.String'],[;#
+;#,'arg0','java_java.lang.String'],[;#Click here,
+http://commons.apache.org,
+to jump to the
+commons website;#,'arg0','java_java.lang.String'],[;#Click here,
+http://commons.apache.org,
+to jump to the
+commons website;#,'EXP_op','java_java.lang.String']]]

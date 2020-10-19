@@ -1,0 +1,9 @@
+contains(String str, String searchStr, boolean ignoreCase)
+Checks whether searchStr is a contained in str or not. Case sensitivity depends on ignorecase. Both string should be non null.
+
+@param str Source String
+@param searchStr String to find
+@param ignoreCase Flag to check case-sensitivity
+@return boolean str contains searchStr or not
+
+

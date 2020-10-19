@@ -1,0 +1,1 @@
+[[['', 'string', 'python_str'], ['', 'EXP_op', 'python_str']], [['x', 'string', 'python_str'], ['x', 'EXP_op', 'python_str']], [['!!!', 'string', 'python_str'], ['!!!', 'EXP_op', 'python_str']], [['hello world', 'string', 'python_str'], ['dlrow olleh', 'EXP_op', 'python_str']]]

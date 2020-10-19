@@ -1,0 +1,29 @@
+Query documentation:
+ Return whether or not given value is a valid IP version 6 address	(including IPv4-mapped IPv6 addresses).		This validator is based on WTForms IPAddress validator.		.. IPAddress validator:	https://github.com/wtforms/wtforms/blob/master/wtforms/validators.py		Examples::		>>> ipv6('abcd:ef::42:1')	True		>>> ipv6('::ffff:192.0.2.128')	True		>>> ipv6('::192.0.2.128')	True		>>> ipv6('abc.0.0.1')	ValidationFailure(func=ipv6, args={'value': 'abc.0.0.1'})		.. versionadded:: 0.2		:param value: IP address string to validate
+Query signature:  ipv6(value)
+Preliminary shortlist of match candidates (func_id, match_score, signature):
+ [((4,), 0.9187595677244849, 'ipv4(value)'), ((9,), 0.6407087508013383, 'mac_address(value)'), ((3830,), 0.6381188891599959, 'isValidIpAddress(String ipAddress)'), ((3834,), 0.6333053624947937, 'isValidInet4Address(String inet4Address)'), ((3835,), 0.6295803207630637, 'isValidInet6Address(String inet6Address)'), ((28633,), 0.5923356291018219, 'ipv4_mapped(self)'), ((22,), 0.5652870274550962, 'uuid(value)'), ((8,), 0.5506452437903046, 'email(value, whitelist=None)'), ((7,), 0.5451080820422688, 'domain(value)'), ((7728,), 0.5394384383805293, 'get6to4IPv4Address(Inet6Address ip)'), ((3833,), 0.5358846782807374, 'isValid(String inetAddress)'), ((3048,), 0.5315210387647525, 'is_ip(string)'), ((0,), 0.5287072448465817, 'url(value, public=False)'), ((19,), 0.5217809211688372, 'iban(value)'), ((30177,), 0.5216348139275262, 'match_hostname(cert, hostname)'), ((3698,), 0.4982977465895666, 'getInstance()'), ((15,), 0.4960852948420475, 'sha256(value)'), ((16,), 0.4960852948420475, 'sha512(value)'), ((14,), 0.4960852948420475, 'sha224(value)'), ((4222,), 0.48847002943090806, 'validateRange(final int startIndex, int endIndex)'), ((4223,), 0.4853496788566312, 'validateIndex(final int index)'), ((1,), 0.48097354220763994, 'truthy(value)')]
+skipping  (4,)
+processed (9,)
+skipped (3830,)
+skipped (3834,)
+processed (3835,)
+skipping  (28633,)
+skipping  (22,)
+skipping  (8,)
+skipping  (7,)
+skipping  (7728,)
+processed (3833,)
+skipping  (3048,)
+skipping  (0,)
+skipping  (19,)
+skipping  (30177,)
+skipping  (3698,)
+skipping  (15,)
+skipping  (16,)
+skipping  (14,)
+skipping  (4222,)
+skipping  (4223,)
+skipped (1,)
+Execution time:  425.8062307319997
+Test suite returned at: /home/satsmt2018/Desktop/TestMinerTool/TestMiner/query/test_temp.py
