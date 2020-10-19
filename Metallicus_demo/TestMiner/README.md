@@ -16,7 +16,7 @@ PREREQUISITES:
 
 The necessary jar files have been provided in the 'jars' sub-folder
 
-2) Unarchive the MetallicusTool.zip file that would extract the TestMiner folder
+2) Clone or download the repository and set the directory to the Metallicus_demo/TestMiner folder
 
 3) To install the necessary python modules, open the command prompt and run the following commands, replacing with appropriate path details:
 
